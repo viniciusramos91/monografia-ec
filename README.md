@@ -1,1 +1,7 @@
-# monografia-ec
+# Monografia
+## Universidade de Brasília
+## Engenharia da Computação
+#### Aluno: Vinícius de Almeida Ramos
+#### ALeteia Patricio Favacho
+
+A necessidade por maior poder de processamento e armazenamento, consequência da complexidade das atuais aplicações e sistemas, tem dado espaço para o desenvolvimento de novos paradigmas na Computação. Com isso, criou-se o conceito de Computação em Nuvem. Essa nova forma de se prover serviços computacionais tem possibilitado o desenvolvimento e a criação de diversas aplicações que compartilham diferentes tecnologias e provedores de serviços. Neste cenário, aplicações em Bioinformática tem se beneficiado dessa nova plataforma, devido à exigência de quantidades cada vez maiores de processamento. O BioNimbuZ, plataforma de execução de workflows em Bioinformática desenvolvido na Universidade de Brasília pelo aluno Hugo Saldanha, utiliza o paradigma de Computação em Nuvem para processar fluxos de aplicações em diferentes provedores de serviços computacionais, como Microsoft Azure e Amazon EC2. Dessa forma, faz-se necessário o gerenciamento da execução desses fluxos (worflows) desde sua submissão ao sistema até sua completude, tal como o provimento de uma interface para que o usuário possa ter acesso a esses serviços. Este trabalho propõe melhorias no gerenciamento e controle dos workflows submetidos à plataforma BioNimbuZ e também o desenvolvimento de uma aplicação baseada em tecnologias Web e Webservices para prover uma nova interface de acesso ao BioNimbuZ. 
