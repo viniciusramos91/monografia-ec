@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: monografia.aux
+The style file: apalike.bst
+Database file #1: bibliografia.bib
+Warning--entry type for "unb_saa" isn't style-file defined
+--line 21 of file bibliografia.bib
+Warning--entry type for "unb_cic" isn't style-file defined
+--line 28 of file bibliografia.bib
+Warning--entry type for "fluxo_cic" isn't style-file defined
+--line 35 of file bibliografia.bib
+Warning--entry type for "portalg1" isn't style-file defined
+--line 97 of file bibliografia.bib
+Warning--entry type for "weka" isn't style-file defined
+--line 111 of file bibliografia.bib
+Repeated entry---line 175 of file bibliografia.bib
+ : @site{weka
+ :           ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 335 of file bibliografia.bib
+ :  
+ :  publisher = {Universidade Federal do Pampa},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 441 of file bibliografia.bib
+ :  
+ :  note={v. 641, 641 p}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--entry type for "unb1" isn't style-file defined
+--line 591 of file bibliografia.bib
+Warning--entry type for "unb2" isn't style-file defined
+--line 598 of file bibliografia.bib
+Warning--entry type for "censo_site" isn't style-file defined
+--line 624 of file bibliografia.bib
+I was expecting a `,' or a `}'---line 668 of file bibliografia.bib
+ :  
+ :  pages={116-119},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 690 of file bibliografia.bib
+ :  
+ :  note={Disponível em \url{http://link.springer.com/article/10.1023%2FB%3AMACH.0000015878.60765.42}, acessado em 17 de agosto de 2015}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty publisher in jose_andreoli2011
+Warning--empty publisher in brasscom2
+Warning--empty publisher in brasscom
+Warning--there's a number but no volume in bueno1993
+Warning--empty journal in coelho_leite
+Warning--empty publisher in proposta_cic2007
+Warning--there's a number but no volume in favero2013
+Warning--empty journal in correa2007
+Warning--empty journal in tutorial_weka
+Warning--empty journal in lobo2011
+Warning--empty journal in rajput_arora
+Warning--empty journal in wada2012
+Warning--empty journal in wisaeng
+(There were 5 error messages)

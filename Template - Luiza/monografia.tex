@@ -1,0 +1,161 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classe do documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Nós usamos a classe "unb-cic".  Deixe apenas uma das linhas
+% abaixo não-comentada, dependendo se você for do bacharelado ou
+% da licenciatura.
+
+%\documentclass[bacharelado]{unb-cic}
+\documentclass[licenciatura]{unb-cic}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pacotes importados
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[brazil,american]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage[square, numbers]{natbib}
+\usepackage{xcolor,graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\graphicspath{{/image}}
+\usepackage{dcolumn}
+\usepackage{multirow}
+\usepackage{longtable}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cores dos links
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Veja o arquivos cores.tex se quiser ver que outras cores estão
+% pré-definidas.  Utilizando o comando \hypersetup abaixo nós
+% evitamos aquelas caixas vermelhas feias em volta dos links.
+
+\input{cores}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=DarkScarletRed,
+  citecolor=DarkScarletRed,
+  filecolor=DarkScarletRed,
+  urlcolor= DarkScarletRed
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Informações sobre a monografia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% definições prévias do documento
+\title{Mineração de Dados Aplicada ao Estudo da Evasão e Desempenho dos Alunos do Bacharelado em Ciência da Computação da Universidade de Brasília}
+
+\orientador{\prof \dr Jan Mendonça Correa}{CIC/UnB}
+\coorientador[a]{\prof \drª Maria Emília Machado Telles Walter}{CIC/UnB}
+
+\coordenador{\prof \dr Wilson Henrique Veneziano}{CIC/UnB}
+
+\diamesano{26}{agosto}{2015}
+
+                           
+\membrobanca{\prof \drª Maria Emília Machado Telles Walter}{CIC/UnB}
+
+\membrobanca{\drª Maria Inez Machado Telles Walter}{DPO/UnB}
+
+\autor{Luiza Alencar}{Azevedo}
+\coautor{Yago da Silva}{Santos}
+
+
+\CDU{004.4}
+
+\palavraschave{Evasão, Mineração de Dados, Informação, Análise Estatística, Ciência da Computação, Universidade de Brasília}
+\keywords{Evasion, Data Mining, Information, Statistics Analysis, Computer Science, University of Brasilia}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Texto
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+  \maketitle
+  \pretextual
+
+  \begin{dedicatoria}
+  	  	\begin{center}
+  		"À minha família, que sempre esteve comigo me apoiando."
+  		
+  	- Luiza Alencar Azevedo
+  	\end{center}
+  	
+  		\begin{center}
+  			"À minha irmã Gilvânia \textit{(em memória)}, que foi e sempre será essencial em minha vida, minha história e em meu coração."
+  			
+  			- Yago da Silva Santos
+  		\end{center}
+  	
+  \end{dedicatoria}
+
+  \begin{agradecimentos}
+   	
+   	\begin{center}
+   		"Agradeço à Deus por tudo que Ele proporcionou, agradeço também aos meus lindos pais Luiz Carlos e Júlia Alencar que sempre tiveram paciência, dedicação e amor em todos os momentos de minha vida. Agradeço à minha querida e maravilhosa irmã Marina Alencar que me deu suporte não somente durante minha graduação, mas sim durante meus vinte e três anos e também ao meu cunhado Leon Sólon. Agradeço imensamente ao meu atual noivo e futuro marido Vinícius Ramos que ajudou em todos os momentos difíceis e comemorou vitórias ao meu lado. 
+   		\newline
+   		Agradeço à todos meus colegas de graduação, em especial meu amigo Yago Santos que esteve comigo desde o início da graduação e que realizou esse trabalho ao meu lado, Guilherme Resende, José Fonseca, Érico Vinícius, Jéssica Naiara e Luísa Behrens que estiveram por perto durante toda essa jornada. Agradeço também aos meus amigos externos à UnB, que entenderam os momentos de ausência.
+   		\newline
+   		Agradeço aos professores que me apoiaram e principalmente aos meus queridos orientadores Jan Mendonça Correa e Maria Emilia Machado Telles Walter que não mediram esforços para nos ajudar."
+   		
+   		- Luiza Alencar Azevedo
+   	\end{center}
+   	
+   	\begin{center}
+   		"Agradeço primeiramente a Deus, pelo dom da vida e da fé. Aos meus familiares e amigos, em especial aos meus pais, José e Catarina, ao meu irmão Gilvan e minha cunhada Sheila, por todo o apoio e incentivo prestado desde o meu ingresso na Universidade, por entenderem as minhas ausências, por estarem sempre ao meu lado e acreditarem em mim. A minha irmã Gilvânia (em memória), que enquanto em vida sempre me acompanhou nos estudos e se preocupou com o meu futuro. A minha madrinha Juciléia, pelo constante apoio nos momentos mais difíceis.  Aos meus colegas de curso, pela convivência diária, pelos momentos de descontração e ajuda ao decorrer da graduação. A minha colega de trabalho e amiga Luiza Alencar e ao Vinícius Ramos, que me acompanharam desde o ínicio do curso e divertiram as tardes de estudo (sem contar os cafés tomados juntos). Aos professores do Departamento de Ciência da Computação, em especial aos orientadores Jan Mendonça Correa e Maria Emília Machado Telles Walter, por todo suporte prestado durante o desenvolvimento deste trabalho, pelas ideias, sugestões e dedicação em nos ajudar. "
+   		
+   		- Yago da Silva Santos
+   	\end{center}
+   	
+  \end{agradecimentos}
+
+\selectlanguage{brazil}  
+\begin{resumo}
+ A evasão no ensino superior é um problema que aflige as Instituições de Ensino públicas e privadas. A aprovação do aluno em uma Instituição de Ensino Superior não é suficiente para garantir que o mesmo permaneça e conclua a graduação. Analisando estudos anteriores realizados no Departamento de Ciência da Computação da Universidade de Brasília, verificou-se que as taxas de reprovação nas disciplinas obrigatórias iniciais são altas e que as taxas de evasão estão em crescimento. Por meio do processo de mineração de dados e análise estatística, esse trabalho visa obter informações que permitam ao Departamento identificar as principais causas de evasão nos semestres iniciais no Bacharelado em Ciência da Computação.
+  \end{resumo}
+
+  \selectlanguage{american}
+  \begin{abstract}
+  The evasion in higher education is a problem that afflicts the institutions of public and private education. The approval of the student in a higher education institution is not enough to ensure that it remains complete and graduation. Analyzing previous studies in the Department of Computer Science at the University of Brasilia, it was found that repetition rates in the early compulsory subjects are high and the dropout rates are on the rise. Through data mining and statistical analysis process, this work aims to obtain information to enable the Department to identify the main causes of dropout in the early semesters Bachelor of Computer Science.
+  \end{abstract}
+  \selectlanguage{brazil}
+
+  \tableofcontents
+  \listoffigures
+  \listoftables
+
+  \textual
+  \input{chapters/capitulo1}
+  \input{chapters/capitulo2}
+  \input{chapters/capitulo3}
+  \input{chapters/capitulo4} 
+  \input{chapters/capitulo5} 
+  \input{chapters/capitulo6}
+  \input{chapters/capitulo7}
+  
+
+  \postextual
+  \bibliographystyle{apalike}
+  \bibliography{bibliografia}
+	\anexos
+	\input{chapters/anexo1}
+	\appendix
+	\input{chapters/apendice1}
+	\input{chapters/apendice1-1}
+	\input{chapters/apendice2}
+	\input{chapters/apendice3}
+	\input{chapters/apendice4}
+\end{document}

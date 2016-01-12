@@ -1,0 +1,129 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classe do documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Nós usamos a classe "unb-cic".  Deixe apenas uma das linhas
+% abaixo não-comentada, dependendo se você for do bacharelado ou
+% da licenciatura.
+
+\documentclass[bacharelado]{unb-cic}
+%\documentclass[licenciatura]{unb-cic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Pacotes importados
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[brazil,american]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{indentfirst}
+\usepackage[square, numbers]{natbib}
+\usepackage{xcolor,graphicx,url}
+\usepackage[utf8]{inputenc}
+\usepackage{array}
+\graphicspath{{/image}}
+\usepackage{dcolumn}
+\usepackage{multirow}
+\usepackage{longtable}
+\newcolumntype{C}[1]{>{\centering\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cores dos links
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Veja o arquivos cores.tex se quiser ver que outras cores estão
+% pré-definidas.  Utilizando o comando \hypersetup abaixo nós
+% evitamos aquelas caixas vermelhas feias em volta dos links.
+
+\input{cores}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=DarkScarletRed,
+  citecolor=DarkScarletRed,
+  filecolor=DarkScarletRed,
+  urlcolor= DarkScarletRed
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Informações sobre a monografia
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% definições prévias do documento
+\title{Um Sistema Gerenciador de Workflows Científicos Para a Plataforma de Nuvens Federadas BioNimbuZ}
+
+\orientador{\prof \dr Aleteia Patricio Favacho}{CIC/UnB}
+
+\coordenador{\prof \dr Andre Drummond}{CIC/UnB}
+
+\diamesano{2}{Fevereiro}{2016}
+                        
+\membrobanca{\prof \drª Maria Emília Machado Telles Walter}{CIC/UnB}
+
+\membrobanca{\drª Maria Inez Machado Telles Walter}{DPO/UnB}
+
+\autor{Vinícius de Almeida}{Ramos}
+
+
+\CDU{004.4}
+
+\palavraschave{Computação em Nuvem, Cluster, Grid, Workflow Científico, Sistema Gerenciador de Workflows Científicos, Ciência da Computação, Universidade de Brasília}
+\keywords{Cloud Computing, Cluster, Grid, Scientific Workflow, Scientific Workflow Management System, Computer Science, University of Brasilia}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Texto
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+  \maketitle
+  \pretextual
+
+  \begin{dedicatoria}
+  	  	\begin{center}
+  		"À minha família e amigos, que sempre estiveram comigo me apoiando e dando forças."
+  		
+  	- Vinícius de Almeida Ramos
+  	\end{center}
+  	
+  \end{dedicatoria}
+
+  \begin{agradecimentos}
+   	
+   	\begin{center}
+   		"Agradeço à Deus por tudo que Ele proporcionou, agradeço também aos meus lindos pais Luiz Carlos e Júlia Alencar que sempre tiveram paciência, dedicação e amor em todos os momentos de minha vida. Agradeço à minha querida e maravilhosa irmã Marina Alencar que me deu suporte não somente durante minha graduação, mas sim durante meus vinte e três anos e também ao meu cunhado Leon Sólon. Agradeço imensamente ao meu atual noivo e futuro marido Vinícius Ramos que ajudou em todos os momentos difíceis e comemorou vitórias ao meu lado. 
+   		\newline
+   		Agradeço à todos meus colegas de graduação, em especial meu amigo Yago Santos que esteve comigo desde o início da graduação e que realizou esse trabalho ao meu lado, Guilherme Resende, José Fonseca, Érico Vinícius, Jéssica Naiara e Luísa Behrens que estiveram por perto durante toda essa jornada. Agradeço também aos meus amigos externos à UnB, que entenderam os momentos de ausência.
+   		\newline
+   		Agradeço aos professores que me apoiaram e principalmente aos meus queridos orientadores Jan Mendonça Correa e Maria Emilia Machado Telles Walter que não mediram esforços para nos ajudar."
+   		
+   		- Luiza Alencar Azevedo
+   	\end{center}   
+   	
+  \end{agradecimentos}
+
+\selectlanguage{brazil}  
+\begin{resumo}
+A necessidade por maior poder de processamento e armazenamento, consequência da complexidade das atuais aplicações e sistemas, tem dado espaço para o desenvolvimento de novos paradigmas na Computação. Com isso, criou-se o conceito de Computação em Nuvem. Essa nova forma de se prover serviços computacionais tem possibilitado o desenvolvimento e a criação de diversas aplicações que compartilham diferentes tecnologias e provedores de serviços. Neste cenário, aplicações em Bioinformática tem se beneficiado dessa nova plataforma, devido à exigência de quantidades cada vez maiores de processamento. O BioNimbuZ, plataforma de execução de workflows em Bioinformática desenvolvido na Universidade de Brasília pelo aluno Hugo Saldanha, utiliza o paradigma de Computação em Nuvem para processar fluxos de aplicações em diferentes provedores de serviços computacionais, como Microsoft Azure e Amazon EC2. Dessa forma, faz-se necessário o gerenciamento da execução desses fluxos (worflows) desde sua submissão ao sistema até sua completude, tal como o provimento de uma interface para que o usuário possa ter acesso a esses serviços. Este trabalho propõe melhorias no gerenciamento e controle dos workflows submetidos à plataforma BioNimbuZ e também o desenvolvimento de uma aplicação baseada em tecnologias Web e Webservices para prover uma nova interface de acesso ao BioNimbuZ.
+  \end{resumo}
+
+  \selectlanguage{american}
+  \begin{abstract}
+The need for greater processing power and storage, caused by the complexity of today's applications and systems, has given space to the development of new paradigms in computing. Thus, it created the concept of Cloud Computing. This new way of providing computing services has enabled the development and creation of various applications that share different technologies and service providers. In this scenario, applications in Bioinformatics has benefited from this new platform due to demand increasing amounts of processing. The BioNimbuZ, a Bioinformatics workflow execution platform developed at the University of Brasilia by the student Hugo Saldanha uses the Cloud Computing paradigm to process application flows in different computer services providers, such as Microsoft Azure and Amazon EC2. Thus, it is necessary to manage the execution of these flows (worflows) since its submission to the system until their completion, such as provide an interface for the user to have access to these services. This paper proposes improvements in the management and control of workflows undergoing BioNimbuZ platform and also the development of an application based on Web technologies and Web services to provide a new interface to access BioNimbuZ.
+  \end{abstract}
+  \selectlanguage{brazil}
+
+  \tableofcontents
+  \listoffigures
+  \listoftables
+
+  \textual
+  \input{chapters/capitulo1}
+  \input{chapters/capitulo2}
+  \input{chapters/capitulo3}
+  \input{chapters/capitulo4} 
+  \input{chapters/capitulo5} 
+  \input{chapters/capitulo6}  
+
+  \postextual
+  \bibliographystyle{apalike}
+  \bibliography{bibliografia}
+
+\end{document}

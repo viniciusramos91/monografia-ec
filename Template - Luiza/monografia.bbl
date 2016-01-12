@@ -1,0 +1,451 @@
+\begin{thebibliography}{}
+
+\bibitem[Amorim, 2006]{amorim2006}
+Amorim, T. (2006).
+\newblock {\em Conceitos, técnicas, ferramentas e aplicações de Mineração
+  de Dados para gerenciar conhecimento a partir de bases de dados}.
+\newblock Centro de Informática. Universidade Federal de Pernambuco,
+  Pernambuco.
+\newblock 50 p.
+
+\bibitem[Andreoli, 2011]{jose_andreoli2011}
+Andreoli, A. R. J. G.~S. (2011).
+\newblock {\em Projeto de Pesquisa A Evasão na UNIPAMPA: Diagnosticando
+  Processos, Acompanhando Trajetórias e Itinerários de Formação}.
+
+\bibitem[Braga et~al., 2003]{braga2003}
+Braga, M.~M., Peixoto, M. C.~L., and Bogutchi, T.~F. (2003).
+\newblock A evasão no ensino superior brasileiro: o caso da {UFMG}.
+\newblock {\em Avaliação, Campinas}, 8(3):161--189.
+
+\bibitem[Brasil, 1988]{constituicao}
+Brasil (1988).
+\newblock {\em Constituição (1988)}.
+\newblock Constituição da República Federativa do Brasil. Senado, Brasília.
+\newblock Disponível em:
+  \url{http://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm},
+  acessado em 01 de outubro de 2014.
+
+\bibitem[{Brasscom}, 2011]{brasscom2}
+{Brasscom} (2011).
+\newblock {\em O Mercado de Profissionais de TI no Brasil}.
+\newblock São Paulo.
+\newblock Disponível em:
+  \url{http://http://www.brasscom.org.br/brasscom/Portugues/pdf/mercado_profissionais_ti_brasil.pdf},
+  acessado em 10 de março de 2015.
+
+\bibitem[{Brasscom}, 2012]{brasscom}
+{Brasscom} (2012).
+\newblock {\em Índice Brasscom de Convergência Digital}.
+\newblock São Paulo, 6 edition.
+\newblock 103 p.
+
+\bibitem[Bueno, 1993]{bueno1993}
+Bueno, J. L.~O. (1993).
+\newblock A {E}vasão de {A}lunos.
+\newblock {\em Paideia}, (5):09--16.
+
+\bibitem[Cardoso and Machado, 2008]{cardoso_machado2008}
+Cardoso, O. N.~P. and Machado, R. T.~M. (2008).
+\newblock Gestão do conhecimento usando data mining: estudo de caso na
+  universidade federal de lavras.
+\newblock {\em Revista Brasileira de Administração Pública}, 42(3):495--528.
+
+\bibitem[Carniel, 2013]{carniel2013}
+Carniel, M. (2013).
+\newblock {\em Aplicação de algoritmos de Mineração de Dados para
+  Identificação de Fatores que Influenciam a Evasão de Alunos do Curso de
+  Ciência da Computação da UNIVALI}.
+\newblock Centro de Ciências Tecnológicas da Terra e do Mar, Universidade do
+  Vale do Itajaí, Itajaí.
+\newblock 137 p. Trabalho Técnico-Científico de Conclusão de Curso
+  (Graduação em Ciência da Computação).
+
+\bibitem[Coelho and Leite, 2014]{coelho_leite}
+Coelho, R.~A. and Leite, R.~C. (2014).
+\newblock {Á}rvores de {D}ecisão.
+\newblock page~3.
+\newblock Disponível em: {http://www.ime.usp.br/~slago/sia-ad.pdf}, acessado
+  em 18 de abril de 2015.
+
+\bibitem[Côrtes et~al., 2002]{cortes2002}
+Côrtes, S.~S., Porcaro, R.~M., and Lifschitz, S. (2002).
+\newblock {\em Mineração de Dados - Funcionalidades, Técnicas e Abordagens}.
+\newblock PUC- Rio Inf. MCC10/02.
+
+\bibitem[da~Educação~Superior, 2014]{censo_site}
+da~Educação~Superior, C. (2014).
+\newblock Matrículas no ensino superior crescem 3,8%.
+\newblock Disponível em:
+  \url{http://portal.inep.gov.br/visualizar/-/asset_publisher/6AhJ/content/matriculas-no-ensino-superior-crescem-3-8},
+  acessado em 25 de julho de 2015.
+
+\bibitem[Dantas and Couto, 2014]{dantas2014}
+Dantas, M. A. N.~A. and Couto, G.~C. (2014).
+\newblock {\em Utilizando Mineração de Dados para Análise de gênero nos
+  cursos de Computação na UnB}.
+\newblock Departamento de Ciência da Computação. Universidade de Brasília,
+  Brasília.
+\newblock 80 p. Monografia (Graduação).
+
+\bibitem[{D}epartamento {d}e {C}iência~{d}a {C}omputação,
+  2009]{proposta_cic2007}
+{D}epartamento {d}e {C}iência~{d}a {C}omputação (2009).
+\newblock {\em Planejamento Estratégico 2007-2010}.
+\newblock 34 p. Disponível em \url{http://www.cic.unb.br/extras/PE2009.pdf}.
+
+\bibitem[Dias et~al., 2010]{dias2010}
+Dias, E. C.~M., Theóphilo, C.~R., and Lopes, M. A.~S. (2010).
+\newblock {\em {E}vasão no ensino superior: {E}studo dos fatores causadores da
+  evasão no curso de ciências contábeis da {U}niversidade {E}stadual de
+  {M}ontes {C}laros}.
+\newblock 7º {C}ongresso {USP} de {I}niciação {C}ientífica em
+  {C}ontabilidade, UniMontes - MG.
+\newblock Disponível em
+  \url{http://www.congressousp.fipecafi.org/web/artigos102010/419.pdf},
+  acessado em 30 de março de 2015.
+
+\bibitem[Duarte, 2013a]{duarte2013}
+Duarte, A.~N. (2013a).
+\newblock {\em As disciplinas que mais retêm alunos em um curso de
+  Computação}.
+\newblock Alexandre {N}óbrega Duarte. Professor e pesquisador do {C}entro de
+  {I}nformática da {UFPB}.
+\newblock Disponível em: \url{http://alexandre.ci.ufpb.br/retencao-cc-2/},
+  acessado em 4 de abril de 2015.
+
+\bibitem[Duarte, 2013b]{duarte2013_2}
+Duarte, A.~N. (2013b).
+\newblock {\em O que está acontecendo com nossos alunos?}
+\newblock Alexandre {N}óbrega Duarte. Professor e pesquisador do {C}entro de
+  {I}nformática da {UFPB}.
+\newblock Disponível em: \url{http://alexandre.ci.ufpb.br/retencao-cc/},
+  acessado em 4 de abril de 2015.
+
+\bibitem[Fayyad et~al., 1996]{fayyad1996}
+Fayyad, U., Piatetsky-Shapiro, G., and Smyth, P. (1996).
+\newblock From data mining to knowledge discovery in databases.
+\newblock {\em American Association for Artificial Intelligence}, 17(3):37--54.
+
+\bibitem[Ferrari, 2014]{ferrari2014}
+Ferrari, D.~G. (2014).
+\newblock {\em Seleção de Algoritmos para a Tarefa de Agrupamento de Dados:
+  Uma Abordagem via Meta-Aprendizagem}.
+\newblock Program de {P}ós-{G}raduação em {E}ngenharia {E}létrica.
+  {U}niversidade {P}resbiteriana {M}ackenzie, São Paulo.
+\newblock 203 f. Tese (Pós-Graduação).
+
+\bibitem[Fávero and Prim, 0132]{favero2013}
+Fávero, J.~D. and Prim, A.~L. (2013/2).
+\newblock Motivos da evasão escolar nos cursos de ensino superior de uma
+  faculdade na cidade de {B}lumenau.
+\newblock {\em Revista Brasileira de Administração Pública}, (n. Especial
+  Educação):53--72.
+
+\bibitem[Gaioso, 2005]{gaioso2005}
+Gaioso, N. P.~L. (2005).
+\newblock {\em O fenômeno da evasão escolar na educação superior no
+  Brasil}.
+\newblock Programa de Pós-Gradução em Educação da Universidade Católica
+  de Brasília, Brasília.
+\newblock 75 f. Dissertação (Mestrado em Educação).
+
+\bibitem[Galvão and Marin, 2009]{galvao_marin2009}
+Galvão, N.~D. and Marin, H.~F. (2009).
+\newblock Técnica de mineração de dados: uma revisão de literatura.
+\newblock {\em Acta Paul Enferm}, 5(22):686--690.
+
+\bibitem[{G}iraud {C}arrier et~al., 2004]{carrier2004}
+{G}iraud {C}arrier, C., Vilauta, R., and Bradzil, P. (2004).
+\newblock Introduction to the {S}pecial {I}ssue on {M}eta-{L}earning.
+\newblock {\em Machine {L}earning}, 54(3):187--193.
+
+\bibitem[Goldschmidt et~al., 2015]{bezerra2015}
+Goldschmidt, R., Bezerra, E., and Passos, E. (2015).
+\newblock {\em Data mining : conceitos, técnicas, algoritmos, orientações e
+  aplicações}.
+\newblock Elsevier Brasil, Rio de Janeiro.
+\newblock 1088 p.
+
+\bibitem[Gonçalves, 2007]{correa2007}
+Gonçalves, E.~C. (2007).
+\newblock {E}xtração de {Á}rvores de {D}ecisão com a {F}erramenta de {D}ata
+  {M}ining {W}eka.
+\newblock Disponível em
+  \url{(http://www.devmedia.com.br/extracao-de-arvores-de-decisao-com-a-ferramenta-de-data-mining-weka/3388)},
+  acessado em 15 de agosto de 2015.
+
+\bibitem[Gonçalves, 2012]{tutorial_weka}
+Gonçalves, E.~C. (2012).
+\newblock Mineração de dados no {M}y{SQL} com a ferramenta {W}eka.
+\newblock Disponível em:
+  \url{http://www.devmedia.com.br/mineracao-de-dados-no-mysql-com-a-ferramenta-weka/26360},
+  acessado em 22 de abril de 2015.
+
+\bibitem[Han and Kamber, 2006]{han_kamber2006}
+Han, J. and Kamber, M. (2006).
+\newblock {\em Data Mining: Concepts and Techniques}.
+\newblock Elsevier, San Francisco, 2 edition.
+\newblock 743 p.
+
+\bibitem[{I}nstituto {N}acional {de} {Estudos} {e} {P}esquisas
+  {E}ducacionais~{A}nísio {T}eixeira, 2013a]{censo2012}
+{I}nstituto {N}acional {de} {Estudos} {e} {P}esquisas {E}ducacionais~{A}nísio
+  {T}eixeira (2013a).
+\newblock {\em Censo da Educação Superior de 2012}.
+\newblock Ministério da Educação.
+\newblock Disponível em
+  \url{http://download.inep.gov.br/educacao_basica/censo_escolar/resumos_tecnicos/apresentacao_coletiva_censo_superior_2012.pdf},
+  acessado em 13 de agosto de 2015.
+
+\bibitem[{I}nstituto {N}acional {de} {Estudos} {e} {P}esquisas
+  {E}ducacionais~{A}nísio {T}eixeira, 2013b]{censo2013}
+{I}nstituto {N}acional {de} {Estudos} {e} {P}esquisas {E}ducacionais~{A}nísio
+  {T}eixeira (2013b).
+\newblock {\em Censo da Educação Superior de 2013}.
+\newblock Ministério da Educação.
+\newblock Disponível em
+  \url{http://download.inep.gov.br/educacao_superior/censo_superior/apresentacao/2014/coletiva_censo_superior_2013.pdf},
+  acessado em 10 de agosto de 2015.
+
+\bibitem[Laudon and Laudon, 2003]{laudon}
+Laudon, K.~C. and Laudon, J.~P. (2003).
+\newblock {\em Gerenciamento de Sistemas de Informação. Tradução por
+  Alexandre Oliveira}.
+\newblock LTC - Livros Técnicos e Científicos S.A, Rio de Janeiro, 3 edition.
+\newblock 433 p.
+
+\bibitem[Lobo, 2011]{lobo2011}
+Lobo, M. B. D.~C. (2011).
+\newblock Panorama da {E}vasão do {E}nsino {S}uperior {Brasileiro}: {A}spectos
+  {G}erais das {C}ausas e {S}oluções.
+\newblock pages 01--23.
+\newblock Disponível em:
+  \url{http://www.institutolobo.org.br/imagens/pdf/artigos/art_087.pdf},
+  acessado em 17 de abril de 2015.
+
+\bibitem[Lopes and Baggi, 2011]{baggi_lopes2010}
+Lopes, D.~A. and Baggi, C. S.~A. (2011).
+\newblock Evasão e {A}valiação {I}nstitucional no {E}nsino {S}uperior: {U}ma
+  {D}iscussão {B}ibliográfica.
+\newblock {\em Avaliação, Campinas}, 16(2):355--374.
+
+\bibitem[Macedo and Matos, 2010]{macedo_matos2010}
+Macedo, D.~C. and Matos, S.~N. (2010).
+\newblock Extração de conhecimento através da mineração de dados.
+\newblock {\em Revista de Engenharia e Tecnologia}, 2(2):22--30.
+
+\bibitem[McGee and Prusak, 1994]{mcgee1994}
+McGee, J. and Prusak, L. (1994).
+\newblock {\em Gerenciamento Estratégico da Informação}.
+\newblock Gerenciamento da informação. Elsevier Brasil.
+
+\bibitem[{M}inistério~da {E}duação, 2010]{censo_2009}
+{M}inistério~da {E}duação (2010).
+\newblock {\em Resumo {T}écnico {C}enso da {E}ducação {S}uperior de 2009}.
+\newblock INEP, Brasília.
+\newblock Disponível em
+  \url{http://download.inep.gov.br/download/superior/censo/2009/resumo_tecnico_2009.pdf},
+  acessado em 12 de março de 2015.
+
+\bibitem[{Ministério da Educação}, 1997]{mec_1997}
+{Ministério da Educação} (1997).
+\newblock {\em Diplomação, retenção e evasão nos cursos de graduação em
+  instituições de ensino superior públicas}.
+\newblock Secretaria de Educação Superior, Brasília.
+\newblock 152 p.
+
+\bibitem[Miranda, 2012]{miranda2012}
+Miranda, E.~B. (2012).
+\newblock {\em Mineração de Dados de Posição Geográfica e Compras}.
+\newblock Departamento de Ciência da Computação. Universidade de Brasília,
+  Brasília.
+\newblock 265 p. Monografia (Graduação).
+
+\bibitem[Palmeira and Santos, 2014]{palmeira_santos2014}
+Palmeira, L.~B. and Santos, M.~P. (2014).
+\newblock {\em Evasão no Bacharelado em Ciência da Computação da
+  Universidade de Brasília: análise e mineração de dados}.
+\newblock Departamento de Ciência da Computação. Universidade de Brasília,
+  Brasília.
+\newblock 126 p. Monografia (Graduação).
+
+\bibitem[Phillips, 2012]{sistemas_informacao1}
+Phillips, P. B.~A. (2012).
+\newblock {\em Sistemas de Informação}.
+\newblock McGraw Hill Brasil.
+\newblock 384 p.
+
+\bibitem[{Portal G1}, 2012]{portalg1}
+{Portal G1} (2012).
+\newblock Índice de evasão de alunos é maior na área de tecnologia da
+  informação.
+\newblock Disponível em:
+  \url{http://g1.globo.com/sp/sao-carlos-regiao/noticia/2012/09/indice-de-evasao-de-alunos-e-maior-na-area-de-tecnologia-da-informacao.html},
+  acessado em 09 de março de 2014.
+
+\bibitem[Prietch and Pazeto, 2010]{prietch_pazeto2010}
+Prietch, S.~S. and Pazeto, T.~A. (2010).
+\newblock Estudo sobre a evasão em um curso de licenciatura em informática e
+  considerações para melhorias.
+\newblock {\em In:Workshop de Educação em Informática Bahia-Alagoas-Sergipe
+  (WEIBASE)/ ERBASE}.
+\newblock Anais da 10a Escola Regional de Computação Bahia-Alagoas-Sergipe
+  (ERBASE), 2010.
+
+\bibitem[Quilici-{G}onzalez and Zampirolli, 2014]{zampirolli2014}
+Quilici-{G}onzalez, J.~A. and Zampirolli, F.~A. (2014).
+\newblock {\em Sistemas inteligentes e mineração de dados}.
+\newblock Triunfal Gráfica e Editora, Santo André.
+\newblock 148 p. il.
+
+\bibitem[Rajput and Arora, 2013]{rajput_arora}
+Rajput, S. and Arora, A. (2013).
+\newblock {D}esigning {S}pam {M}odel- {C}lassification {A}nalysis {u}sing
+  {D}ecision {T}rees.
+\newblock 75(10):06--12.
+\newblock Disponível em
+  \url{http://research.ijcaonline.org/volume75/number10/pxc3890549.pdf},
+  acessado em 10 de agosto de 2015.
+
+\bibitem[Raposo, 2002]{raposo2005}
+Raposo, G.~R. (2002).
+\newblock {\em A Educação na Constituição Brasileira de 1988}.
+\newblock Jus Navigandi, Teresina.
+\newblock v. 641, 641 p.
+
+\bibitem[Rissi and Marcondes, 2013]{rissi_marcondes2013}
+Rissi, M.~C. and Marcondes, M. A.~S. (2013).
+\newblock {\em Reflexão sobre a reprovação, retenção e evasão na UEL:
+  retenção em 2010, reprovação 2010 a 2012 e evasão 2003 a 2012 nos cursos
+  de graduação}.
+\newblock Marinalva Calabrez Rissi, Martha Ap. Santana Marcondes
+  (Organizadoras). Universidade Estadual de Londrina, Londrina.
+\newblock 250 p. : il. Disponível em
+  \url{http://www.uel.br/proplan/aval-institucional/Reflexao-Reprovacao-Evasao-na-UEL-Livro-05-12-2013.pdf},
+  acessado em 14 de abril de 2015.
+
+\bibitem[Ristoff, 1997]{ristoff1997}
+Ristoff, D.~I. (1997).
+\newblock {E}xclusão ou {M}obilidade.
+\newblock {\em ANCapital}, pages 03--03.
+
+\bibitem[Rodrigues, 2013]{rodrigues2013}
+Rodrigues, F.~S. (2013).
+\newblock {\em Estudo sobre a Evasão no Curso de Ciência da Computação da
+  UFRGS}.
+\newblock Instituto de Informática. Universidade Federal do Rio Grande do Sul,
+  Porto Alegre.
+\newblock 86 p. Trabalho de Graduação. Disponível em
+  \url{http://www.lume.ufrgs.br/bitstream/handle/10183/77275/000896280.pdf?sequence=1},
+  acessado em 13 de maio de 2015.
+
+\bibitem[Russo, 2010]{russo2010}
+Russo, M. (2010).
+\newblock {\em Fundamentos de Biblioteconomia e Ciência da Informação}.
+\newblock Biblioteconomia e gestão de unidades de informação. Série
+  Didáticos. e-papers.
+\newblock 177 p.
+
+\bibitem[{S}ilva {F}ilho et~al., 2007]{silvafilho2007}
+{S}ilva {F}ilho, R. L.~L., Motejunas, P.~R., Hipólito, O., and Lobo, M. B.
+  C.~M. (2007).
+\newblock A {E}vasão no {E}nsino {S}uperior {B}rasileiro.
+\newblock {\em Cadernos de Pesquisa}, 37(132):641--659.
+
+\bibitem[Siqueira, 2005]{siqueira2005}
+Siqueira, M.~C. (2005).
+\newblock {\em Gestão Estratégica da Informação}.
+\newblock Brasport, Rio de Janeiro.
+\newblock 158 p.
+
+\bibitem[Somasundaram et~al., 2011]{somasundaram2011}
+Somasundaram, G., Shrivastava, A., and Services, E.~E. (2011).
+\newblock {\em Armazenamento e Gerenciamento de Informações: Como armazenar,
+  gerenciar e proteger informações digitais}.
+\newblock Bookman.
+
+\bibitem[Souza, 2010]{souza2010}
+Souza, R.~M. (2010).
+\newblock {\em Meta Aprendizado para Seleção Automática de Modelos de
+  Séries Temporais}.
+\newblock Centro de Informática. Universidade Federal de Pernambuco, Recife.
+\newblock 58 f. Dissertação (Mestrado).
+
+\bibitem[Stair and Reynolds, 2006]{stair2006}
+Stair, R. and Reynolds, G. (2006).
+\newblock {\em Princípios de sistemas de informação: uma abordagem
+  gerencial. Tradução de Flávio Soares Corrêa da Silva}.
+\newblock Pioneira Thomson, 6 edition.
+\newblock Brochura | 642 p.
+
+\bibitem[Tigrinho, 2008]{tigrinho2008}
+Tigrinho, L. M.~V. (2008).
+\newblock Evasão escolar nas instituições de ensino superior.
+\newblock {\em Revista Gestao Universitaria na America Latina - GUAL}, v.
+  173:01--14.
+
+\bibitem[{Universidade de Brasília}, 2008]{unb_cic}
+{Universidade de Brasília} (2008).
+\newblock Ciência da computação - {U}n{B} - {U}niversidade de {B}rasília.
+\newblock Disponível em:
+  \url{http://www.unb.br/aluno_de_graduacao/cursos/ciencia_da_computacao},
+  acessado em 24 de maio de 2015.
+
+\bibitem[{Universidade {de} {B}rasília}, 2011]{unb1}
+{Universidade {de} {B}rasília} (2011).
+\newblock Pesquisa revela índice de evasão nos cursos da {U}n{B}.
+\newblock Disponível em:
+  \url{http://www.unb.br/noticias/unbagencia/unbagencia.php?id=6096}, acessado
+  em 21 de junho de 2015.
+
+\bibitem[{Universidade de {B}rasília}, 2012]{unb2}
+{Universidade de {B}rasília} (2012).
+\newblock Evasão ainda desafia a {U}n{B}.
+\newblock Disponível em:
+  \url{http://unb.br/noticias/unbagencia/cpmod.php?id=93067}, acessado em 21 de
+  junho de 2015.
+
+\bibitem[{Universidade de Brasília}, 2013]{unb_saa}
+{Universidade de Brasília} (2013).
+\newblock {S}ecretaria de {A}dministração {A}cadêmica.
+\newblock Disponível em: \url{http://saa.unb.br/desligamento}, acessado em 24
+  de maio de 2015.
+
+\bibitem[{Universidade de Brasília}, 2015]{fluxo_cic}
+{Universidade de Brasília} (2015).
+\newblock Listagem de fluxo de habilitação - dados completos (ciência da
+  computação).
+\newblock Disponível em:
+  \url{https://condoc.unb.br/matriculaweb/graduacao/fluxo.aspx?cod=1856},
+  acessado em 24 de maio de 2015.
+
+\bibitem[{U}niversity~of {W}aikato, 2014]{weka}
+{U}niversity~of {W}aikato (2014).
+\newblock Weka 3: Data mining software in java. university of waikato.
+\newblock Disponível em: \url{http://www.cs.waikato.ac.nz/ml/weka/index.html},
+  acessado em 31 de outubro de 2014.
+
+\bibitem[Wada, 2012]{wada2012}
+Wada, S. (2012).
+\newblock Os benefícios da gestão do conhecimento para as organizações.
+\newblock Disponível em:
+  \url{http://www.administradores.com.br/noticias/negocios/os-beneficios-da-gestao-do-conhecimento-para-as-organizacoes/52675},
+  acessado em 12 de maio de 2015.
+
+\bibitem[Wisaeng, 2013]{wisaeng}
+Wisaeng, K. (2013).
+\newblock A {C}omparison of {D}ifferent {C}lassification {T}echniques for
+  {B}ank {D}irect {M}arketing.
+\newblock 3.
+\newblock Disponível em
+  \url{http://www.ijsce.org/attachments/File/v3i4/D1789093413.pdf}, acessado em
+  14 de agosto de 2015.
+
+\bibitem[Witten et~al., 2005]{witten2005}
+Witten, I.~H., Frank, E., and Hall, M.~C. (2005).
+\newblock {\em Data Mining: practical machine learning tools and techniques}.
+\newblock Elsevier, San Francisco, 2 edition.
+\newblock 525 p.
+
+\end{thebibliography}

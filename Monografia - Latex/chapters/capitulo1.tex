@@ -1,0 +1,43 @@
+\textual
+
+\chapter{Introdução} \label{1title}
+	
+A busca por cada vez mais poder de processamento tem desenvolvido novos estudos e paradigmas na Computação. Grids computacionais, clusters e, mais atualmente, nuvens computacionais têm tentado suprir essa necessidade de maneiras distintas. Em 1969, Leonard Kleinrock, um dos cientistas que chefiou o projeto ARPANET (o qual se tornou a base da Internet) disse que a computação funcionaria a partir de um modelo como vemos atualmente na telefonia e na eletricidade, como um serviço. Neste modelo, usuários acessam esses serviços independentemente de onde os mesmos estão localizados ou de qual maneira são entregues, abstraindo diversas características do ambiente envolvido. Esse modelo se aproxima do conceito de Computação em Nuvem.
+
+Entretanto, não existe na literatura consenso para a definição de computação em nuvem, porém algumas características fundamentais [2] estão presentes na maioria delas, como: virtualização, escalabilidade, interoperabilidade, qualidade de serviço (QoS), gerenciamento de falhas, transparência, elasticidade. Esses aspectos fundamentais constituem o modelo de nuvens computacionais como serviços, em que o sistema passa a ilusão ao usuário de que este possui acesso à recursos ilimitados de software e hardware. Nesse contexto, surgiram os tipos de nuvens: privada, pública, híbrida e, mais atualmente, a federação de nuvens. 
+
+Uma Federação de Nuvens compreende o uso de diversos provedores em um único serviço. Isso provê características adicionais aos modelos anteriores de nuvem pública, privada e híbrida, como: migração de recursos (como imagens de máquinas virtuais), redundância de dados, processamento paralelo, replicação de recursos, combinação de serviços complementares, fragmentação de dados (ex: itens do tipo 1 são armazenados no provedor A enquanto itens do tipo 2 são armazenados no provedor B. Isso se torna útil quando requisitos funcionais e não funcionais diferem para tipos de dados diferentes). Adicionalmente, uma federação de nuvens possibilita o desenvolvimento de sistemas flexíveis e interoperáveis, o que diminui os custos de desenvolvimento e facilita sua expansão, com o custo de se adicionar complexidade ao sistema.
+
+Neste cenário, a Bioinformática tem se beneficiado com esse conceito de nuvens computacionais pela sua característica de tratar grandes quantidades de dados, produzidas pelas modernas máquinas que executam algoritmos de sequenciamento genômico. Dessa forma, diversas ferramentas foram projetadas e implantadas tirando proveito dos recursos disponibilizados pela computação em nuvens. O BioNimbuZ, projeto desenvolvido por Hugo Saldanha [3], faz uso da infraestrutura de uma federação de nuvens para executar workflows em Bioinformática de maneira transparente, flexível, eficiente e tolerante à falhas, com acesso à grande poder de processamento e armazenamento.
+
+Na Bioinformática, um workflow é um conjunto de diversas fases em que análises computacionais são executadas a partir de dados obtidos por meio de sequenciadores automáticos. Cada pesquisa implica em uma combinação de diferente de ferramentas já existentes ou a serem desenvolvidas, o que adiciona complexidade ao sistema, pois torna-o mutável a cada nova pesquisa. Sistemas científicos que gerenciam workflows [4] devem automatizar a execução de workflows científicos, suportando usuários na montagem, composição e verificação da execução do workflow gerado pelo usuário.
+
+Este trabalho propõe um modelo de sistema gerenciador de worflows científicos que trata o problema de gerenciamento dos workflows submetidos ao ambiente de nuvem federada BioNimbuZ, além de implementar uma interface baseada em tecnologias Web para que usuários possam acessar os serviços disponibilizados pelo BioNimbuZ através da Internet. Também trata do problema de comunicação entre este sistema e o núcleo do BioNimbuZ, utilizando Websevices.
+
+
+\section{Motivação} \label{1title2}
+
+Com o número crescente de sistemas computacionais utilizados na Bioinformática para execução de workflows científicos, percebeu-se a necessidade de criação de sistemas de que gerenciem o ciclo de vida destes workflows. Este ciclo de vida é composto por diversas fases, como [4]: Criação e Composição, Planejamento de Recursos, Execução, Análise da Execução, Compartilhamento de Resultados. 
+
+Diante deste contexto, este trabalho trata da criação de um sistema de gerenciamento de workflows científicos para o ambiente de nuvem federada BioNimbuZ para que seja possível a criação, manutenção, execução e análise dos workflows submetidos à esta plataforma tal como trata do problema de comunicação entre este sistema e o núcleo do BioNimbuZ.
+
+\section{Problema} \label{1title3}
+
+Atualmente, a execução de um dado software no BioNimbuZ é realizado via linha de comando (terminal) de maneira sequencial, isto é, o usuário deve, primeiramente, fornecer os arquivos à plataforma, depois iniciar um dado serviço que consumirá esses arquivos enviados, resultando em uma saída. Caso haja mais passos no workflow, o usuário deve executá-los manualmente e assim sucessivamente. Ou seja, não há suporte à criação e gerenciamento de workflows, pois o usuário deve intervir em todos os passos da execução. Assim, este trabalho deve:
+\begin{itemize}
+    \item Prover meios para que o usuário possa gerenciar seus workflows
+    \item Implementar uma interface composta por tecnologias Web para facilitar o controle do ciclo de vida de um workflow pelo usuário.
+    \item Garantir que estes usuários tenham acesso posterior aos workflows criados e executados.
+    \item Tratar da comunicação entre este sistema e o BioNimbuZ a partir de Webservices.
+    \item Garantir o controle de acesso de um dado usuário à somente seus workflows.
+    \item Garantir a visualização posterior e devolver o resultado íntegro ao usuário.
+\end{itemize}
+	
+
+\section{Objetivo} \label{1title4}
+
+\subsection{Principal}
+
+Propor e implementar um Sistema Gerenciador de Workflows Científicos para que o usuário possa: compor um workflow de maneira gráfica, enviar arquivos necessários à sua execução, salvar o estado do workflow para que o usuário tenha acesso posterior, enviar o workflow para ser executado pelo núcleo do BioNimbuZ e, ao término da execução, enviar o resultado e os arquivos de saída de volta ao usuário.
+
+\subsection{Específicos}

@@ -1,0 +1,27 @@
+[1] Cloud Computing and Grid Computing 360-Degree Compared
+
+[2] A Taxonomy and Survey of Cloud Computing Systems
+
+[3] BioNimbus: uma arquitetura de federação de nuvens computacionais híbrida para a execução de workflows de Bioinformática
+
+[4] Scientific Process Automation and Workflow Management
+
+[5] A Break In The Clouds: Towards a Cloud Definition
+
+[6] Distributed Systems and Recent Innovations: Challenges and Benefits
+
+[9] Consistent Global States of Distributed Systems: Fundamental Concepts and Mechanisms
+
+[10] Time, Clocks and the Ordering of Events in a Distributed Systems.
+
+[11] Cloud Computing vs. Grid Computing 
+
+[12] The Anatomy of The Grid
+
+[13] Cluster Computing - High Performance, High-Availability and High Throuhput Processing on a Network of Computers
+
+[14] Cluster Computing: Architectures, Operating Systems, Parallel Processing & Programming Languages
+
+[15] Cloud Computing - State of the Art and Research Challenges
+
+[16] The NIST Definition of Cloud Computing

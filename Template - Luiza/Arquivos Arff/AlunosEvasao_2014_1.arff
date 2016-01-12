@@ -1,0 +1,74 @@
+@relation QueryResult
+
+@attribute Matricula numeric
+@attribute QtdeCB numeric
+@attribute PrimeiraNotaCB {SR,MS,MM}
+@attribute PrimeiraTurmaCB {2013_2_E,2010_1_B,2009_1_D,2009_2_A}
+@attribute UltimaNotaCB {SR,MS,MM}
+@attribute UltimaTurmaCB {2013_2_E,2010_1_B,2009_1_D,2009_2_A}
+@attribute StatusMencaoCB {REPROVADO,APROVADO}
+@attribute QtdeED numeric
+@attribute PrimeiraNotaED {MM,MS}
+@attribute PrimeiraTurmaED {2010_2_B,2011_2_D,2010_1_A}
+@attribute UltimaNotaED {MM,MS}
+@attribute UltimaTurmaED {2010_2_B,2011_2_D,2010_1_A}
+@attribute StatusMencaoED {APROVADO}
+@attribute QtdePS numeric
+@attribute PrimeiraNotaPS {MS,MM}
+@attribute PrimeiraTurmaPS {2013_1_A,2012_2_A}
+@attribute UltimaNotaPS {MS,MM}
+@attribute UltimaTurmaPS {2013_1_A,2012_2_A}
+@attribute StatusMencaoPS {APROVADO}
+@attribute QtdeC1 numeric
+@attribute PrimeiraNotaC1 {SR,MM,MS,MI}
+@attribute PrimeiraTurmaC1 {2013_2_N,2008_2_I,2005_1_E,2009_2_N}
+@attribute UltimaNotaC1 {SR,MM,MS,MI}
+@attribute UltimaTurmaC1 {2013_2_N,2008_2_I,2005_1_E,2012_2_B}
+@attribute StatusMencaoC1 {REPROVADO,APROVADO}
+@attribute QtdeC2 numeric
+@attribute PrimeiraNotaC2 {MM,SS}
+@attribute PrimeiraTurmaC2 {2009_1_H,2005_2_I}
+@attribute UltimaNotaC2 {MM,SS}
+@attribute UltimaTurmaC2 {2009_1_H,2005_2_I}
+@attribute StatusMencaoC2 {APROVADO}
+@attribute QtdeC3 numeric
+@attribute PrimeiraNotaC3 {MM,MS}
+@attribute PrimeiraTurmaC3 {2009_2_D,2006_1_F}
+@attribute UltimaNotaC3 {MM,MS}
+@attribute UltimaTurmaC3 {2009_2_D,2006_1_F}
+@attribute StatusMencaoC3 {APROVADO}
+@attribute QtdeF1 numeric
+@attribute PrimeiraNotaF1 {II,MI,MM}
+@attribute PrimeiraTurmaF1 {2013_2_K,2005_2_F,2009_2_A}
+@attribute UltimaNotaF1 {II,MS,MM}
+@attribute UltimaTurmaF1 {2013_2_K,2006_1_I,2009_2_A}
+@attribute StatusMencaoF1 {REPROVADO,APROVADO}
+@attribute QtdeF2 numeric
+@attribute PrimeiraNotaF2 {MS}
+@attribute PrimeiraTurmaF2 {2006_2_H}
+@attribute UltimaNotaF2 {MS}
+@attribute UltimaTurmaF2 {2006_2_H}
+@attribute StatusMencaoF2 {APROVADO}
+@attribute QtdeF3 numeric
+@attribute PrimeiraNotaF3 {MM}
+@attribute PrimeiraTurmaF3 {2008_1_A}
+@attribute UltimaNotaF3 {MM}
+@attribute UltimaTurmaF3 {2008_1_A}
+@attribute StatusMencaoF3 {APROVADO}
+@attribute AluSexo {M}
+@attribute AluDtNasc {1996,1986,1992}
+@attribute AluEscola {PUBLICA,PARTICULAR}
+@attribute AluCotTipo {'ESCOLA PUBL BAIXA RENDA PPI','ESCOLA PUBL ALTA RENDA PPI',UNIVERSAL}
+@attribute AluAnoIngresso numeric
+@attribute AluSemestreIngresso numeric
+@attribute AluAnoSaida numeric
+@attribute AluSemestreSaida numeric
+@attribute SemestreCursoSaida numeric
+@attribute AluSaidaMotivo {'NAO INFORMADO'}
+@attribute AluSituacao {CURSANDO}
+
+@data
+201160092,1,SR,2013_2_E,SR,2013_2_E,REPROVADO,?,?,?,?,?,?,?,?,?,?,?,?,1,SR,2013_2_N,SR,2013_2_N,REPROVADO,?,?,?,?,?,?,?,?,?,?,?,?,1,II,2013_2_K,II,2013_2_K,REPROVADO,?,?,?,?,?,?,?,?,?,?,?,?,M,1996,PUBLICA,'ESCOLA PUBL BAIXA RENDA PPI',2014,1,0,9,99,'NAO INFORMADO',CURSANDO
+201161111,1,MS,2010_1_B,MS,2010_1_B,APROVADO,1,MM,2010_2_B,MM,2010_2_B,APROVADO,?,?,?,?,?,?,1,MM,2008_2_I,MM,2008_2_I,APROVADO,1,MM,2009_1_H,MM,2009_1_H,APROVADO,1,MM,2009_2_D,MM,2009_2_D,APROVADO,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,M,1986,PUBLICA,'ESCOLA PUBL ALTA RENDA PPI',2014,1,0,9,99,'NAO INFORMADO',CURSANDO
+201162605,1,MS,2009_1_D,MS,2009_1_D,APROVADO,1,MS,2011_2_D,MS,2011_2_D,APROVADO,1,MS,2013_1_A,MS,2013_1_A,APROVADO,1,MS,2005_1_E,MS,2005_1_E,APROVADO,1,SS,2005_2_I,SS,2005_2_I,APROVADO,1,MS,2006_1_F,MS,2006_1_F,APROVADO,2,MI,2005_2_F,MS,2006_1_I,APROVADO,1,MS,2006_2_H,MS,2006_2_H,APROVADO,1,MM,2008_1_A,MM,2008_1_A,APROVADO,M,1986,PUBLICA,'ESCOLA PUBL ALTA RENDA PPI',2014,1,0,9,99,'NAO INFORMADO',CURSANDO
+201166911,1,MM,2009_2_A,MM,2009_2_A,APROVADO,1,MM,2010_1_A,MM,2010_1_A,APROVADO,1,MM,2012_2_A,MM,2012_2_A,APROVADO,3,MI,2009_2_N,MI,2012_2_B,REPROVADO,?,?,?,?,?,?,?,?,?,?,?,?,1,MM,2009_2_A,MM,2009_2_A,APROVADO,?,?,?,?,?,?,?,?,?,?,?,?,M,1992,PARTICULAR,UNIVERSAL,2014,1,0,9,99,'NAO INFORMADO',CURSANDO

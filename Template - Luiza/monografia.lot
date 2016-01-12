@@ -1,0 +1,63 @@
+\select@language {american}
+\select@language {brazil}
+\select@language {american}
+\select@language {brazil}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {2.1}{\ignorespaces N\IeC {\'u}mero de Institui\IeC {\c c}\IeC {\~o}es de Ensino Superior no Brasil em 2013.}}{6}{table.2.1}
+\contentsline {table}{\numberline {2.2}{\ignorespaces N\IeC {\'u}mero de alunos atendidos pelas Institui\IeC {\c c}\IeC {\~o}es de Ensino Superior p\IeC {\'u}blicas e privadas.}}{7}{table.2.2}
+\contentsline {table}{\numberline {2.3}{\ignorespaces Percentual de Matr\IeC {\'\i }culas, Ingressantes e Concluintes por \IeC {\'A}rea de Atua\IeC {\c c}\IeC {\~a}o em 2013.}}{7}{table.2.3}
+\contentsline {table}{\numberline {2.4}{\ignorespaces Percentual de evas\IeC {\~a}o entre 2002 e 2006 na Universidade de Bras\IeC {\'\i }lia \citep {unb1}.}}{13}{table.2.4}
+\contentsline {table}{\numberline {2.5}{\ignorespaces N\IeC {\'u}mero de evadidos por ano/motivo (Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o).}}{17}{table.2.5}
+\contentsline {table}{\numberline {2.6}{\ignorespaces N\IeC {\'u}mero de evadidos por ano/motivo (Engenharia da Computa\IeC {\c c}\IeC {\~a}o).}}{17}{table.2.6}
+\contentsline {table}{\numberline {2.7}{\ignorespaces N\IeC {\'u}mero de evadidos por ano/motivo (Engenharia de Software).}}{17}{table.2.7}
+\contentsline {table}{\numberline {2.8}{\ignorespaces Fluxo, m\IeC {\'\i }nimo e m\IeC {\'a}ximo de semestres por curso oferecido pelo CIC-UnB}}{19}{table.2.8}
+\contentsline {table}{\numberline {2.9}{Fluxo de Disciplinas do Curso de Bacharelado em Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o na UnB}}{20}{table.2.9}
+\contentsline {table}{\numberline {2.10}{\ignorespaces Quantitativo de Ingressantes, Formados e Desligados por G\IeC {\^e}nero e Curso}}{22}{table.2.10}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{Atributos referentes aos alunos.}}{52}{table.5.1}
+\contentsline {table}{\numberline {5.2}{Atributos referentes ao hist\IeC {\'o}rico.}}{52}{table.5.2}
+\contentsline {table}{\numberline {5.3}{Atributos referentes as disciplinas obrigat\IeC {\'o}rias.}}{53}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Atributos referentes as disciplinas optativas.}}{53}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Nova estrutura da tabela \textit {Obrigat\IeC {\'o}rias}.}}{54}{table.5.5}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Atualiza\IeC {\c c}\IeC {\~a}o de valores para o atributo \textit {FormaIngresso}.}}{54}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Atualiza\IeC {\c c}\IeC {\~a}o de valores para o atributo \textit {FormaSaida}.}}{55}{table.5.7}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Atualiza\IeC {\c c}\IeC {\~a}o de valores para o atributo \textit {AluEscola}.}}{55}{table.5.8}
+\contentsline {table}{\numberline {5.9}{\ignorespaces Atualiza\IeC {\c c}\IeC {\~a}o de valores para o atributo \textit {AluCotId}.}}{55}{table.5.9}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Classifica\IeC {\c c}\IeC {\~a}o das Men\IeC {\c c}\IeC {\~o}es na Universidade de Bras\IeC {\'\i }lia.}}{56}{table.5.10}
+\contentsline {table}{\numberline {5.11}{Estrutura da Tabela \textit {evasao\_cic}.}}{58}{table.5.11}
+\contentsline {table}{\numberline {5.12}{Estrutura da Tabela \textit {evasao\_mat}.}}{58}{table.5.12}
+\contentsline {table}{\numberline {5.13}{Estrutura da Tabela \textit {evasao\_fis}.}}{59}{table.5.13}
+\contentsline {table}{\numberline {5.14}{Atributos presentes no arquivo ARFF.}}{64}{table.5.14}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{Percentual de alunos desligados por motivo.}}{72}{table.6.1}
+\contentsline {table}{\numberline {6.2}{Percentual de men\IeC {\c c}\IeC {\~o}es por disciplina dos alunos em geral.}}{80}{table.6.2}
+\contentsline {table}{\numberline {6.3}{Percentual de men\IeC {\c c}\IeC {\~o}es por disciplina dos alunos desligados.}}{81}{table.6.3}
+\contentsline {table}{\numberline {6.4}{\ignorespaces Algoritmos utilizados para os dados gerais dos alunos ingressos entre o ano de 2000 e 2013.}}{82}{table.6.4}
+\contentsline {table}{\numberline {6.5}{Regras geradas pelo algoritmo de regra \textit {DecisionTable} para classifica\IeC {\c c}\IeC {\~a}o dos alunos desligados. A tabela de decis\IeC {\~a}o foi constru\IeC {\'\i }da a partir das combina\IeC {\c c}\IeC {\~o}es de men\IeC {\c c}\IeC {\~o}es obtidas nas disciplinas C\IeC {\'a}lculo 3 e F\IeC {\'\i }sica 3.}}{85}{table.6.5}
+\contentsline {table}{\numberline {6.6}{\ignorespaces An\IeC {\'a}lise das matrizes de confus\IeC {\~a}o dos algoritmos para os alunos identificados como cursando em 2014.}}{87}{table.6.6}
+\contentsline {table}{\numberline {6.7}{\ignorespaces Algoritmos utilizados para os dados do segundo semestre de 2002.}}{89}{table.6.7}
+\contentsline {table}{\numberline {6.8}{\ignorespaces Algoritmos Utilizados para os dados do primeiro semestre de 2004.}}{90}{table.6.8}
+\contentsline {table}{\numberline {6.9}{\ignorespaces Algoritmos Utilizados para os dados do segundo semestre de 2005.}}{92}{table.6.9}
+\contentsline {table}{\numberline {6.10}{\ignorespaces Algoritmos Utilizados para os dados do primeiro semestre de 2006.}}{93}{table.6.10}
+\contentsline {table}{\numberline {6.11}{\ignorespaces Algoritmos Utilizados para os dados do segundo semestre de 2006.}}{95}{table.6.11}
+\contentsline {table}{\numberline {6.12}{\ignorespaces Algoritmos Utilizados para os dados do segundo semestre de 2006.}}{97}{table.6.12}
+\contentsline {table}{\numberline {6.13}{\ignorespaces Algoritmos Utilizados para os dados do segundo semestre de 2011.}}{97}{table.6.13}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {I.1}{Programas e pr\IeC {\'e}-requisitos das disciplinas analisadas.}}{108}{table.I.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {B.1}{\ignorespaces Tabelas SQL e C\IeC {\'o}digos das Disciplinas por Departamento.}}{115}{table.B.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {D.1}{Combina\IeC {\c c}\IeC {\~a}o de valores na \textit {query} por linha.}}{123}{table.D.1}
+\contentsline {table}{\numberline {D.2}{Combina\IeC {\c c}\IeC {\~a}o de valores na \textit {query} por linha.}}{124}{table.D.2}
+\contentsline {table}{\numberline {D.3}{Combina\IeC {\c c}\IeC {\~a}o de valores na \textit {query} por linha.}}{124}{table.D.3}
+\contentsline {table}{\numberline {D.4}{Combina\IeC {\c c}\IeC {\~a}o de valores na \textit {query} por linha.}}{125}{table.D.4}
+\contentsline {table}{\numberline {D.5}{Combina\IeC {\c c}\IeC {\~a}o de valores na \textit {query} por linha.}}{125}{table.D.5}
+\contentsline {table}{\numberline {D.6}{Combina\IeC {\c c}\IeC {\~a}o de valores na \textit {query} por linha.}}{126}{table.D.6}
+\contentsline {table}{\numberline {D.7}{Combina\IeC {\c c}\IeC {\~a}o de valores na \textit {query} por linha.}}{127}{table.D.7}
+\addvspace {10\p@ }

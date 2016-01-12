@@ -1,0 +1,288 @@
+\chapter{\textit{Queries} Gerais Utilizadas nas Consultas SQL}  \label{apendiceD}
+
+
+\noindent \textbf{\textit{Query para geração da tabela \textit{evasao\_todos}, com dados dos alunos e do histórico:}}
+\newline
+\newline
+\textbf{INSERT INTO} evasao\_todos (MatricAluno, AluSexo, AluDtNasc, AluEscola, \newline 
+AluCotID, AluCotTipo, AluAnoIngresso, AluSemestreIngresso,
+AluFormaIngresso,  \newline 
+AluAnoSaida, AluSemestreSaida, AluFormaSaida, AluSaidaMotivo, \newline 
+AluSituacao, DiscAno, DiscSemestre,
+DiscCodDisc, DiscCreditos, \newline
+DiscTurma, DiscMencao, MateriaCursada, NomeMateria) \newline 
+\textbf{SELECT} a.MatricAluno, a.AluSexo, a.AluDtNasc, a.AluEscola, a.AluCotId, a.AluCotTipo, \newline a.AluAnoIngresso, a.AluSemestreIngresso,
+a.AluFormaIngresso, a.AluAnoSaida, \newline
+a.AluSemestreSaida, a.AluFormaSaida, a.AluSaidaMotivo, a.AluSituacao, a.DiscAno, \newline
+a.DiscSemestre, a.DiscCodDisc, a.DiscCreditos, a.DiscTurma, a.DiscMencao, \newline
+a.MateriaCursada, o.nomeDisciplina \newline
+\textbf{FROM} alunos\_historico a \newline
+\textbf{LEFT OUTER JOIN} obrigatorias o \textbf{ON} a.DiscCodDisc = o.CodDisciplina
+\newline
+\newline
+\newline
+\textbf{\textit{Query utilizada para consultar dados dos alunos do sexo masculino:}}
+\newline
+\newline
+\noindent \textbf{SELECT} distinct e.*, \newline
+m.QtdeC1, m.PrimeiraNotaC1, m.PrimeiraTurmaC1, 
+m.UltimaNotaC1, m.UltimaTurmaC1, m.StatusMencaoC1, \newline
+m.QtdeC2, m.PrimeiraNotaC2, m.PrimeiraTurmaC2,
+m.UltimaNotaC2, m.UltimaTurmaC2, m.StatusMencaoC2, \newline
+m.QtdeC3, m.PrimeiraNotaC3, m.PrimeiraTurmaC3, 
+m.UltimaNotaC3, m.UltimaTurmaC3, m.StatusMencaoC3, \newline
+f.QtdeF1, f.PrimeiraNotaF1, f.PrimeiraTurmaF1,
+f.UltimaNotaF1, f.UltimaTurmaF1, \newline 
+f.StatusMencaoF1, \newline
+f.QtdeF2, f.PrimeiraNotaF2, f.PrimeiraTurmaF2,
+f.UltimaNotaF2, f.UltimaTurmaF2, \newline
+f.StatusMencaoF2, \newline
+f.QtdeF3, f.PrimeiraNotaF3, f.PrimeiraTurmaF3,
+f.UltimaNotaF3, f.UltimaTurmaF3,\newline 
+f.StatusMencaoF3, \newline
+o.AluSexo, o.AluDtNasc, o.AluEscola, o.AluCotTipo, o.AluAnoIngresso,  \newline
+o.AluSemestreIngresso, o.AluFormaIngresso, 
+o.AluAnoSaida, o.AluSemestreSaida, \newline o.SemestreCursoSaida,
+o.AluSaidaMotivo, o.AluSituacao \newline
+\textbf{FROM} evasao\_cic e 
+\textbf{INNER JOIN} evasao\_obrigatorias o \textbf{ON} e.Matricula = o.MatricAluno \newline
+\textbf{LEFT OUTER JOIN} evasao\_mat m \textbf{ON} e.Matricula = m.Matricula \newline
+\textbf{LEFT OUTER JOIN} evasao\_fis f \textbf{ON} e.Matricula = f.Matricula \newline
+\textbf{WHERE} o.AluSexo = 'M' \textbf{AND} o.AluAnoIngresso \textbf{BETWEEN} 2000 \textbf{AND} 2013
+\newline
+\newline
+\newline
+\textbf{\textit{Query utilizada para consultar dados dos alunos do sexo feminino:}} 
+\newline
+\newline
+\noindent \textbf{SELECT} distinct e.*, \newline
+m.QtdeC1, m.PrimeiraNotaC1, m.PrimeiraTurmaC1, 
+m.UltimaNotaC1, m.UltimaTurmaC1, m.StatusMencaoC1, \newline
+m.QtdeC2, m.PrimeiraNotaC2, m.PrimeiraTurmaC2,
+m.UltimaNotaC2, m.UltimaTurmaC2, m.StatusMencaoC2, \newline
+m.QtdeC3, m.PrimeiraNotaC3, m.PrimeiraTurmaC3, 
+m.UltimaNotaC3, m.UltimaTurmaC3, m.StatusMencaoC3, \newline
+f.QtdeF1, f.PrimeiraNotaF1, f.PrimeiraTurmaF1,
+f.UltimaNotaF1, f.UltimaTurmaF1, \newline 
+f.StatusMencaoF1, \newline
+f.QtdeF2, f.PrimeiraNotaF2, f.PrimeiraTurmaF2,
+f.UltimaNotaF2, f.UltimaTurmaF2, \newline
+f.StatusMencaoF2, \newline
+f.QtdeF3, f.PrimeiraNotaF3, f.PrimeiraTurmaF3,
+f.UltimaNotaF3, f.UltimaTurmaF3,\newline 
+f.StatusMencaoF3, \newline
+o.AluSexo, o.AluDtNasc, o.AluEscola, o.AluCotTipo, o.AluAnoIngresso,  \newline
+o.AluSemestreIngresso, o.AluFormaIngresso, 
+o.AluAnoSaida, o.AluSemestreSaida, \newline o.SemestreCursoSaida,
+o.AluSaidaMotivo, o.AluSituacao \newline
+\textbf{FROM} evasao\_cic e 
+\textbf{INNER JOIN} evasao\_obrigatorias o \textbf{ON} e.Matricula = o.MatricAluno \newline
+\textbf{LEFT OUTER JOIN} evasao\_mat m \textbf{ON} e.Matricula = m.Matricula \newline
+\textbf{LEFT OUTER JOIN} evasao\_fis f \textbf{ON} e.Matricula = f.Matricula \newline
+\textbf{WHERE} o.AluSexo = 'F' \textbf{AND} o.AluAnoIngresso \textbf{BETWEEN} 2000 \textbf{AND} 2013
+\newline
+\newline
+\newline
+\textbf{\textit{Query utilizada para consultar a taxa de alunos reprovados pela terceira vez por disciplina:}} 
+
+\begin{longtable}{C{3cm}C{3cm}C{3cm}}
+\label{query-reprova3} \\
+\caption{Combinação de valores na \textit{query} por linha.} \\
+\hline
+\textit{tabela} & \textit{nota} & \textit{quantidade}\\
+\hline
+\multirow{3}{*}{\textit{evasao\_cic}} & UltimaNotaCB & QtdeCB\\
+ & UltimaNotaED & QtdeED\\
+ & UltimaNotaPS & QtdePS\\ \hline
+ \multirow{3}{*}{\textit{evasao\_mat}} & UltimaNotaC1 & QtdeC1\\
+ & UltimaNotaC2 & QtdeC2\\
+ & UltimaNotaC3 & QtdeC3\\ \hline
+ \multirow{3}{*}{\textit{evasao\_fis}} & UltimaNotaF1 & QtdeF1\\
+ & UltimaNotaF2 & QtdeF2\\
+ & UltimaNotaF3 & QtdeF3\\ \hline
+\end{longtable}  
+
+\noindent \textbf{SELECT} t.* \newline
+\textbf{FROM} \textit{tabela} t \textbf{INNER JOIN} alunos a
+on t.Matricula = a.MatricAluno \newline
+\textbf{WHERE} a.AnoIngresso \textbf{BETWEEN} 2000 \textbf{AND} 2013 \newline
+\textbf{AND} \textit{quantidade} = 3 \newline
+\textbf{AND} (\textit{nota} = 'TR' \textbf{OR} \textit{nota} = 'TJ' 
+\textbf{OR} \textit{nota} = 'MI' \textbf{OR} \textit{nota} = 'II' \textbf{OR} \textit{nota} = 'SR') \newline
+\textbf{ORDER BY} \textit{nota} \textbf{ASC}
+\newline
+\newline
+\newline
+\textbf{\textit{Query utilizada para consultar a primeira menção obtida pelo aluno por disciplina:}} 
+\begin{longtable}{C{3cm}C{5cm}}
+	\label{query-primeiranota} \\
+	\caption{Combinação de valores na \textit{query} por linha.} \\
+	\hline
+	\textit{tabela} & \textit{nota}\\
+	\hline
+	\multirow{2}{*}{\textit{evasao\_cic}} & PrimeiraNotaCB\\
+	& PrimeiraNotaED\\
+	&PrimeiraNotaPS\\ \hline
+	\multirow{2}{*}{\textit{evasao\_mat}} & PrimeiraNotaC1\\
+	& PrimeiraNotaC2\\
+	& PrimeiraNotaC3\\ \hline
+	\multirow{2}{*}{\textit{evasao\_fis}} & PrimeiraNotaF1\\
+	& PrimeiraNotaF2\\
+	& PrimeiraNotaF3\\ \hline
+\end{longtable}  
+
+\noindent \textbf{SELECT DISTINCT} t.\textit{nota}, \textbf{COUNT}(t.\textit{nota}) \newline 
+\textbf{FROM} \textit{tabela} t \textbf{INNER JOIN} alunos a
+\textbf{ON} t.Matricula = a.MatricAluno \newline
+\textbf{WHERE} a.AnoIngresso \textbf{BETWEEN} 2000 \textbf{AND} 2013 \textbf{AND} \textit{nota} \textbf{IS NOT NULL} \newline
+\textbf{GROUP BY} \textit{nota} \newline
+\textbf{ORDER BY} \textit{nota} \textbf{ASC} 
+\newline
+\newline
+\newline
+\textbf{\textit{Query utilizada para consultar a primeira menção obtida pelo aluno desligado por disciplina:}}
+\begin{longtable}{C{3cm}C{5cm}}
+	\label{query-segundanota} \\
+	\caption{Combinação de valores na \textit{query} por linha.} \\
+	\hline
+	\textit{tabela} & \textit{nota}\\
+	\hline
+	\multirow{2}{*}{\textit{evasao\_cic}} & PrimeiraNotaCB\\
+	& PrimeiraNotaED\\
+	&PrimeiraNotaPS\\ \hline
+	\multirow{2}{*}{\textit{evasao\_mat}} & PrimeiraNotaC1\\
+	& PrimeiraNotaC2\\
+	& PrimeiraNotaC3\\ \hline
+	\multirow{2}{*}{\textit{evasao\_fis}} & PrimeiraNotaF1\\
+	& PrimeiraNotaF2\\
+	& PrimeiraNotaF3\\ \hline
+\end{longtable}  
+
+\noindent \textbf{SELECT DISTINCT} t.\textit{nota}, \textbf{COUNT}(t.\textit{nota}) \newline 
+\textbf{FROM} \textit{tabela} t \textbf{INNER JOIN} alunos a
+\textbf{ON} t.Matricula = a.MatricAluno \newline
+\textbf{WHERE} a.AnoIngresso \textbf{BETWEEN} 2000 \textbf{AND} 2013 \textbf{AND} \textit{nota} \textbf{IS NOT NULL} \newline
+\textbf{AND} a.AluSituacao = 'DESLIGADO' \newline
+\textbf{GROUP BY} \textit{nota} \newline
+\textbf{ORDER BY} \textit{nota} \textbf{ASC}
+\newline
+\newline
+\newline
+\textit{\textbf{Query utilizada para selecionar as matrículas e quantidade de  vezes que determinada disciplina foi cursada pelo aluno:}}
+\begin{longtable}{C{3cm}C{5cm}}
+	\label{query-vezescursada} \\
+	\caption{Combinação de valores na \textit{query} por linha.} \\
+	\hline
+	\textit{tabela} & \textit{quantidade}\\
+	\hline
+	\multirow{2}{*}{\textit{evasao\_cic}} & QtdeCB\\
+	& QtdeED\\
+	& QtdePS\\ \hline
+	\multirow{2}{*}{\textit{evasao\_mat}} & QtdeC1\\
+	& QtdeC2\\
+	& QtdeC3\\ \hline
+	\multirow{2}{*}{\textit{evasao\_fis}} & QtdeF1\\
+	& QtdeF2\\
+	& QtdeF3\\ \hline
+\end{longtable}  
+
+\noindent \textbf{SELECT DISTINCT} t.Matricula, t.\textit{quantidade} \newline
+\textbf{FROM} \textit{tabela} t \textbf{INNER JOIN} alunos a
+\textbf{ON} e.Matricula = a.MatricAluno \newline
+\textbf{WHERE} a.AnoIngresso \textbf{BETWEEN} 2000 \textbf{AND} 2013
+\textbf{AND} \textit{quantidade} \textbf{IS NOT NULL}
+\newline
+\newline
+\newline
+\textit{\textbf{Query utilizada verificar a quantidade de reprovações e a quantidade de alunos reprovados em determinada disciplina:}}
+\begin{longtable}{C{3cm}C{3cm}C{5cm}}
+	\label{query-reprovacoes} \\
+	\caption{Combinação de valores na \textit{query} por linha.} \\
+	\hline
+	\textit{tabela} & \textit{quantidade} & \textit{nota}\\
+	\hline
+	\multirow{2}{*}{\textit{evasao\_cic}} & QtdeCB & PrimeiraNotaCB\\
+	& QtdeED & PrimeiraNotaED\\
+	& QtdePS & PrimeiraNotaPS\\ \hline
+	\multirow{2}{*}{\textit{evasao\_mat}} & QtdeC1 & PrimeiraNotaC1\\
+	& QtdeC2 & PrimeiraNotaC2\\
+	& QtdeC3 & PrimeiraNotaC3\\ \hline
+	\multirow{2}{*}{\textit{evasao\_fis}} & QtdeF1 & PrimeiraNotaF1\\
+	& QtdeF2 & PrimeiraNotaF2\\
+	& QtdeF3 & PrimeiraNotaF3\\ \hline
+\end{longtable}  
+
+\noindent \textbf{SELECT} t.\textit{quantidade} as 'Numero de Reprovações', \textbf{COUNT}(t.\textit{quantidade}) \textbf{AS} 'Quantidade de Alunos' \newline
+\textbf{FROM} \textit{tabela} t \textbf{INNER JOIN} alunos a
+\textbf{ON} e.Matricula = a.MatricAluno \newline
+\textbf{WHERE} a.AnoIngresso \textbf{BETWEEN} 2000 \textbf{AND} 2013 \newline
+\textbf{AND} \textit{quantidade} > 1 \textbf{OR} (\textit{quantidade} = 1 \textbf{OR} \textit{nota} = 'TR' \textbf{OR} \textit{nota} = 'TJ' \newline \textbf{OR} 
+\textit{nota} = 'SR' \textbf{OR} \textit{nota} = 'II' \textbf{OR} \textit{nota} = 'MI') \newline
+\textbf{GROUP BY} \textit{quantidade} \newline
+\textbf{ORDER BY} \textit{quantidade} \textbf{ASC} \newline
+\newline
+\newline
+\newline
+\textit{\textbf{Query utilizada para contar a quantidade de alunos que não cursaram determinada disciplina:}}
+
+\begin{longtable}{C{3cm}C{5cm}}
+	\label{query-reprovacoes2} \\
+	\caption{Combinação de valores na \textit{query} por linha.} \\
+	\hline
+	\textit{tabela}  & \textit{nota}\\
+	\hline
+	\multirow{2}{*}{\textit{evasao\_cic}} &  PrimeiraNotaCB\\
+	& PrimeiraNotaED\\
+	& PrimeiraNotaPS\\ \hline
+	\multirow{2}{*}{\textit{evasao\_mat}} & PrimeiraNotaC1\\
+	& PrimeiraNotaC2\\
+	& PrimeiraNotaC3\\ \hline
+	\multirow{2}{*}{\textit{evasao\_fis}} & PrimeiraNotaF1\\
+	& PrimeiraNotaF2\\
+	& PrimeiraNotaF3\\ \hline
+\end{longtable}  
+
+\textbf{SELECT COUNT} (*) \newline
+\textbf{FROM} \textit{tabela} t \textbf{INNER JOIN} alunos a
+\textbf{ON} e.Matricula = a.MatricAluno \newline
+\textbf{WHERE} a.AnoIngresso \textbf{BETWEEN} 2000 \textbf{AND} 2013
+\textbf{AND} \textit{nota} \textbf{IS NULL} \newline
+\newline
+\newline
+\newline
+\textit{\textbf{Query utilizada para contar a quantidade de alunos desligados que não cursaram determinada disciplina:}}
+
+\begin{longtable}{C{3cm}C{5cm}}
+	\label{query-reprovacoes3} \\
+	\caption{Combinação de valores na \textit{query} por linha.} \\
+	\hline
+	\textit{tabela}  & \textit{nota}\\
+	\hline
+	\multirow{2}{*}{\textit{evasao\_cic}} &  PrimeiraNotaCB\\
+	& PrimeiraNotaED\\
+	& PrimeiraNotaPS\\ \hline
+	\multirow{2}{*}{\textit{evasao\_mat}} & PrimeiraNotaC1\\
+	& PrimeiraNotaC2\\
+	& PrimeiraNotaC3\\ \hline
+	\multirow{2}{*}{\textit{evasao\_fis}} & PrimeiraNotaF1\\
+	& PrimeiraNotaF2\\
+	& PrimeiraNotaF3\\ \hline
+\end{longtable}  
+
+\noindent \textbf{SELECT COUNT} (*) \newline
+\textbf{FROM} \textit{tabela} t \textbf{INNER JOIN} alunos a
+\textbf{ON} e.Matricula = a.MatricAluno \newline
+\textbf{WHERE} a.AnoIngresso \textbf{BETWEEN} 2000 \textbf{AND} 2013
+\textbf{AND} \textit{nota} \textbf{IS NULL  \newline AND} o.AluSituacao = 'DESLIGADO' \newline
+\newline
+\newline
+\newline
+\textit{\textbf{Query utilizada para verificar a situação geral dos alunos do Departamento:}}
+\newline
+\newline
+\noindent \textbf{SELECT DISTINCT} a.alusituacao \textbf{AS} 'Situação', \textbf{COUNT}(*) as 'Quantidade' \newline
+\textbf{FROM} alunos a \textbf{INNER JOIN} \textit{evasao\_cic} c
+\textbf{ON} a.MatricAluno = c.Matricula \newline
+\textbf{WHERE} a.AnoIngresso  \textbf{BETWEEN} 2000 \textbf{AND} 2013 \newline
+\textbf{GROUP BY} a.alusituacao \newline
+\textbf{ORDER BY} a.aluSituacao \textbf{ASC} \newline

@@ -1,0 +1,78 @@
+\select@language {american}
+\select@language {brazil}
+\select@language {american}
+\select@language {brazil}
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Evas\IeC {\~a}o no Ensino}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Justificativa}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Problema}{3}{section.1.3}
+\contentsline {section}{\numberline {1.4}Objetivos}{3}{section.1.4}
+\contentsline {section}{\numberline {1.5}Hip\IeC {\'o}tese}{4}{section.1.5}
+\contentsline {section}{\numberline {1.6}Descri\IeC {\c c}\IeC {\~a}o dos Cap\IeC {\'\i }tulos}{4}{section.1.6}
+\contentsline {chapter}{\numberline {2}A Evas\IeC {\~a}o nas Institui\IeC {\c c}\IeC {\~o}es de Ensino Superior}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}O Cen\IeC {\'a}rio da Educa\IeC {\c c}\IeC {\~a}o Superior no Brasil}{5}{section.2.1}
+\contentsline {section}{\numberline {2.2}O Conceito de Evas\IeC {\~a}o e sua Implica\IeC {\c c}\IeC {\~a}o na Gest\IeC {\~a}o das Institui\IeC {\c c}\IeC {\~o}es de Ensino Superior}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Motivos para Evas\IeC {\~a}o}{10}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Situa\IeC {\c c}\IeC {\~o}es de Evas\IeC {\~a}o na Universidade de Bras\IeC {\'\i }lia}{13}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Estudos sobre Evas\IeC {\~a}o nos Cursos de Computa\IeC {\c c}\IeC {\~a}o no Brasil}{14}{section.2.4}
+\contentsline {section}{\numberline {2.5}Estudos Sobre Evas\IeC {\~a}o nos Cursos de Computa\IeC {\c c}\IeC {\~a}o na Universidade de Bras\IeC {\'\i }lia}{18}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}O Departamento de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o da Universidade de Bras\IeC {\'\i }lia}{19}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}O Curso de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o}{20}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}An\IeC {\'a}lise de G\IeC {\^e}nero nos Cursos de Computa\IeC {\c c}\IeC {\~a}o - Dantas e Couto (2014)}{21}{subsection.2.5.3}
+\contentsline {subsubsection}{Desligamentos}{21}{section*.8}
+\contentsline {subsubsection}{An\IeC {\'a}lise de Desempenho}{22}{section*.9}
+\contentsline {subsubsection}{An\IeC {\'a}lise de Disciplinas e Semestres}{23}{section*.10}
+\contentsline {subsection}{\numberline {2.5.4}Evas\IeC {\~a}o no Bacharelado de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o - Palmeira e Santos (2014)}{23}{subsection.2.5.4}
+\contentsline {section}{\numberline {2.6}Discuss\IeC {\~a}o dos Resultados}{24}{section.2.6}
+\contentsline {chapter}{\numberline {3}O Papel da Informa\IeC {\c c}\IeC {\~a}o para a Organiza\IeC {\c c}\IeC {\~a}o}{26}{chapter.3}
+\contentsline {section}{\numberline {3.1}Dado, Informa\IeC {\c c}\IeC {\~a}o e Conhecimento}{26}{section.3.1}
+\contentsline {section}{\numberline {3.2}Sistemas de Informa\IeC {\c c}\IeC {\~a}o na An\IeC {\'a}lise de Informa\IeC {\c c}\IeC {\~o}es}{28}{section.3.2}
+\contentsline {section}{\numberline {3.3}Caracter\IeC {\'\i }sticas e Desafios da Informa\IeC {\c c}\IeC {\~a}o}{29}{section.3.3}
+\contentsline {chapter}{\numberline {4}Minera\IeC {\c c}\IeC {\~a}o de Dados}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Conceitos e Etapas do Processo de Extra\IeC {\c c}\IeC {\~a}o do Conhecimento}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Componentes de um Sistema de Minera\IeC {\c c}\IeC {\~a}o de Dados}{34}{section.4.2}
+\contentsline {section}{\numberline {4.3}T\IeC {\'e}cnicas de Minera\IeC {\c c}\IeC {\~a}o de Dados}{35}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Classifica\IeC {\c c}\IeC {\~a}o}{35}{subsection.4.3.1}
+\contentsline {subsubsection}{\IeC {\'A}rvores de Decis\IeC {\~a}o}{37}{section*.11}
+\contentsline {subsubsection}{Classifica\IeC {\c c}\IeC {\~a}o por Regras}{39}{section*.12}
+\contentsline {subsubsection}{Meta-aprendizado}{39}{section*.13}
+\contentsline {subsection}{\numberline {4.3.2}Predi\IeC {\c c}\IeC {\~a}o}{41}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Clusteriza\IeC {\c c}\IeC {\~a}o}{41}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Detec\IeC {\c c}\IeC {\~a}o de Anomalias}{43}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}\textit {Softwares} para Minera\IeC {\c c}\IeC {\~a}o de Dados}{44}{section.4.4}
+\contentsline {section}{\numberline {4.5}\textit {Software} Weka}{45}{section.4.5}
+\contentsline {chapter}{\numberline {5}Minera\IeC {\c c}\IeC {\~a}o de Dados dos Alunos de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o da UnB}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}Delimita\IeC {\c c}\IeC {\~a}o do Objeto de Pesquisa}{49}{section.5.1}
+\contentsline {section}{\numberline {5.2}Sele\IeC {\c c}\IeC {\~a}o dos Dados}{50}{section.5.2}
+\contentsline {section}{\numberline {5.3}Pr\IeC {\'e}-processamento dos Dados}{53}{section.5.3}
+\contentsline {section}{\numberline {5.4}Transforma\IeC {\c c}\IeC {\~a}o dos Dados}{54}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Organiza\IeC {\c c}\IeC {\~a}o dos Dados por Departamento e Disciplinas}{56}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Gera\IeC {\c c}\IeC {\~a}o dos Arquivos em Formato ARFF}{59}{subsection.5.4.2}
+\contentsline {subsubsection}{Integrando o Weka ao MySQL}{60}{section*.14}
+\contentsline {subsubsection}{Recupera\IeC {\c c}\IeC {\~a}o dos Dados pelo Weka e Transforma\IeC {\c c}\IeC {\~a}o para o Formato ARFF}{63}{section*.15}
+\contentsline {section}{\numberline {5.5}Minera\IeC {\c c}\IeC {\~a}o de Dados}{66}{section.5.5}
+\contentsline {chapter}{\numberline {6}Resultados}{69}{chapter.6}
+\contentsline {section}{\numberline {6.1}Resultados Obtidos por Consultas SQL ao Banco de Dados}{69}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Vis\IeC {\~a}o Geral}{69}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}An\IeC {\'a}lise dos Alunos por G\IeC {\^e}nero}{73}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}An\IeC {\'a}lise das Disciplinas}{78}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Resultados Obtidos por Minera\IeC {\c c}\IeC {\~a}o de Dados}{82}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Evas\IeC {\~a}o Geral dos Alunos Entre 2000 e 2013}{82}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Evas\IeC {\~a}o dos Alunos nos Semestres com Maiores Taxas de Desligamento}{87}{subsection.6.2.2}
+\contentsline {subsubsection}{Ingressantes no Segundo Semestre de 2002}{89}{section*.16}
+\contentsline {subsubsection}{Ingressantes no Primeiro Semestre de 2004}{90}{section*.17}
+\contentsline {subsubsection}{Ingressantes no Segundo Semestre de 2005}{92}{section*.18}
+\contentsline {subsubsection}{Ingressantes no Primeiro Semestre de 2006}{93}{section*.19}
+\contentsline {subsubsection}{Ingressantes no Segundo Semestre de 2006}{95}{section*.20}
+\contentsline {subsubsection}{Ingressantes no Segundo Semestre de 2009}{96}{section*.21}
+\contentsline {subsubsection}{Ingressantes no Segundo Semestre de 2011}{97}{section*.22}
+\contentsline {chapter}{\numberline {7}Conclus\IeC {\~a}o}{99}{chapter.7}
+\contentsline {section}{\numberline {7.1}Contribui\IeC {\c c}\IeC {\~o}es}{100}{section.7.1}
+\contentsline {section}{\numberline {7.2}Trabalhos Futuros}{101}{section.7.2}
+\contentsline {chapter}{Refer\^encias}{102}{section*.23}
+\contentsline {chapter}{\numberline {I}Programa e Pr\IeC {\'e}-Requisitos nas Disciplinas Analisadas}{108}{annex.I}
+\contentsline {chapter}{\numberline {A}C\IeC {\'o}digo Java para c\IeC {\'a}lculo da quantidade de semestres cursados pelos alunos}{113}{appendix.A}
+\contentsline {chapter}{\numberline {B}C\IeC {\'o}digo Java para gera\IeC {\c c}\IeC {\~a}o das tabelas \textit {evasao\_cic, evasao\_mat} e \textit {evasao\_fis}}{115}{appendix.B}
+\contentsline {chapter}{\numberline {C}\textit {Query} utilizada para gera\IeC {\c c}\IeC {\~a}o dos arquivos em formato ARFF}{121}{appendix.C}
+\contentsline {chapter}{\numberline {D}\textit {Queries} Gerais Utilizadas nas Consultas SQL}{122}{appendix.D}
+\contentsline {chapter}{\numberline {E}\textit {Queries} Utilizadas na Transforma\IeC {\c c}\IeC {\~a}o dos Dados}{128}{appendix.E}

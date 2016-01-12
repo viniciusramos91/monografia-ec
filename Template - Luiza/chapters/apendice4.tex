@@ -1,0 +1,45 @@
+\chapter{\textit{Queries} Utilizadas na Transformação dos Dados}  \label{apendiceE}
+
+
+\noindent \textbf{\textit{Query para atualização da coluna \textit{FormaIngresso}:}} \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Nao Informado' \textbf{WHERE} FormaIngresso = 0 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Vestibular' \textbf{WHERE} FormaIngresso = 1 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Trans Obrigatoria' \textbf{WHERE} FormaIngresso = 2 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Trans Facultativa' \textbf{WHERE} FormaIngresso = 3 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Port Dipl Curso Superior' \textbf{WHERE} FormaIngresso = 4 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Acordo Cultural' \textbf{WHERE} FormaIngresso = 5 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Convenio Intern' \textbf{WHERE} FormaIngresso = 6 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Matricula Cortesia' \textbf{WHERE} FormaIngresso = 7 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Pas' \textbf{WHERE} FormaIngresso = 17 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Convenio Andifes' \textbf{WHERE} FormaIngresso = 20 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Pec-G Pepppfol' \textbf{WHERE} FormaIngresso = 24 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaIngresso = 'Enem' \textbf{WHERE} FormaIngresso = 27 \newline
+
+
+\noindent \textbf{\textit{Query para atualização da coluna \textit{FormaSaida} :}} \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Cursando' \textbf{WHERE} FormaSaida = 0 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Formatura' \textbf{WHERE} FormaSaida = 1 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Desl Jubilamento' \textbf{WHERE} FormaSaida = 3 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Desl Forca de Convenio' \textbf{WHERE} FormaSaida = 5 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Transferencia' \textbf{WHERE} FormaSaida = 6 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Desl Voluntario' \textbf{WHERE} FormaSaida = 7 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Falecimento' \textbf{WHERE} FormaSaida = 9 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Desl Decisao Judicial' \textbf{WHERE} FormaSaida = 12 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Desl Abandono' \textbf{WHERE} FormaSaida = 16 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Desl Nao Cumpriu Condicao' \textbf{WHERE} FormaSaida = 17 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Reprovou 3 Vezes Msm Disc Obr' \textbf{WHERE} FormaSaida = 20 \newline
+\textbf{UPDATE} alunos \textbf{SET} FormaSaida = 'Novo Vestibular' \textbf{WHERE} FormaSaida = 21 \newline
+
+\noindent \textbf{\textit{Query para atualização da coluna \textit{AluEscola} :}} \newline
+\textbf{UPDATE} alunos \textbf{SET} AluEscola = 'Nao Informado' \textbf{WHERE} FormaSaida = '\#NULO!' \newline
+\textbf{UPDATE} alunos \textbf{SET} AluEscola = 'Nao Informado' \textbf{WHERE} FormaSaida = 0 \newline
+\textbf{UPDATE} alunos \textbf{SET} AluEscola = 'Publica' \textbf{WHERE} FormaSaida = 1 \newline
+\textbf{UPDATE} alunos \textbf{SET} AluEscola = 'Particular' \textbf{WHERE} FormaSaida = 2 \newline
+
+\noindent \textbf{\textit{Query para atualização da coluna \textit{AluCotId} :}} \newline
+\textbf{UPDATE} alunos \textbf{SET} AluCotId = 'Universal' \textbf{WHERE} FormaSaida = 0 \newline
+\textbf{UPDATE} alunos \textbf{SET} AluCotId = 'Negro' \textbf{WHERE} FormaSaida = 1 \newline
+\textbf{UPDATE} alunos \textbf{SET} AluCotId = 'Escola Publ Baixa Renda PPI' \textbf{WHERE} FormaSaida = 3 \newline
+\textbf{UPDATE} alunos \textbf{SET} AluCotId = 'Esc Publ Baixa Renda Nao PPI' \textbf{WHERE} FormaSaida = 4 \newline
+\textbf{UPDATE} alunos \textbf{SET} AluCotId = 'Escola Publ Alta Renda PPI' \textbf{WHERE} FormaSaida = 5 \newline
+\textbf{UPDATE} alunos \textbf{SET} AluCotId = 'Esc Publ Alta Renda Nao PPI' \textbf{WHERE} FormaSaida = 6 \newline

@@ -1,0 +1,41 @@
+
+\chapter{\textit{Query} utilizada para geração dos arquivos em formato ARFF} \label{apendiceC}
+
+Para a obtenção dos arquivos ARFF  por semestre, a \textit{query} foi executada a partir da combinação dos valores do ano e semestre de ingresso entre 2000 e 2013. \textit{(Exemplo: 2000/1, 2000/2, 2001/1, 2001/2 ...)}. 
+
+'Ano\_Ingresso' = 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013;
+'Semestre\_Ingresso' = 1, 2; 
+\newline
+\newline
+
+\textbf{\textit{Query} utilizada:} 
+\newline
+\newline
+
+\noindent \textbf{SELECT} distinct e.*, \newline
+m.QtdeC1, m.PrimeiraNotaC1, m.PrimeiraTurmaC1, 
+m.UltimaNotaC1, m.UltimaTurmaC1, m.StatusMencaoC1, \newline
+m.QtdeC2, m.PrimeiraNotaC2, m.PrimeiraTurmaC2,
+m.UltimaNotaC2, m.UltimaTurmaC2, m.StatusMencaoC2, \newline
+m.QtdeC3, m.PrimeiraNotaC3, m.PrimeiraTurmaC3, 
+m.UltimaNotaC3, m.UltimaTurmaC3, m.StatusMencaoC3, \newline
+f.QtdeF1, f.PrimeiraNotaF1, f.PrimeiraTurmaF1,
+f.UltimaNotaF1, f.UltimaTurmaF1, \newline 
+f.StatusMencaoF1, \newline
+f.QtdeF2, f.PrimeiraNotaF2, f.PrimeiraTurmaF2,
+f.UltimaNotaF2, f.UltimaTurmaF2, \newline
+f.StatusMencaoF2, \newline
+f.QtdeF3, f.PrimeiraNotaF3, f.PrimeiraTurmaF3,
+f.UltimaNotaF3, f.UltimaTurmaF3,\newline 
+f.StatusMencaoF3, \newline
+o.AluSexo, o.AluDtNasc, o.AluEscola, o.AluCotTipo, o.AluAnoIngresso,  \newline
+o.AluSemestreIngresso, o.AluFormaIngresso, 
+o.AluAnoSaida, o.AluSemestreSaida, \newline o.SemestreCursoSaida,
+o.AluSaidaMotivo, o.AluSituacao \newline
+\textbf{FROM} evasao\_cic e 
+\textbf{INNER JOIN} evasao\_obrigatorias o \textbf{ON} e.Matricula = o.MatricAluno \newline
+\textbf{LEFT OUTER JOIN} evasao\_mat m \textbf{ON} e.Matricula = m.Matricula \newline
+\textbf{LEFT OUTER JOIN} evasao\_fis f \textbf{ON} e.Matricula = f.Matricula \newline
+\textbf{WHERE} o.AluAnoIngresso = 'Ano\_Ingresso'  \newline \textbf{AND} o.AluSemestreIngresso = 'Semestre\_Ingresso'
+
+

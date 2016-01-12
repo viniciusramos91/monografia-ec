@@ -1,0 +1,104 @@
+
+\chapter{Código Java para cálculo da quantidade de semestres cursados pelos alunos} \label{apendiceA}
+
+
+\noindent package Dados; \newline
+import java.sql.Connection; \newline
+import java.sql.DriverManager; \newline
+import java.sql.SQLException; 
+\newline
+\newline
+public class Corrige\_Semestre \{ 
+\begin{quote}
+	private static java.sql.Statement stm; \newline
+	private static java.sql.Statement stm2; \newline
+	private static java.sql.PreparedStatement pst; \newline
+	private static Connection conexao; \newline
+	\newline		
+	// Função: Estabelece conexao com o banco de dados \newline
+	public static Connection ObtemConexao() throws SQLException, ClassNotFoundException \{
+	\begin{quote}
+		Connection conn = null; \newline
+		Class.forName ("com.mysql.jdbc.Driver"); \newline
+		conn = DriverManager.getConnection(''jdbc:mysql://localhost:3306/alunos\_cic'', ''root'', '' '' ); \newline
+		return conn;
+	\end{quote}
+	\} \newline
+	\newline
+	//	Função: Determina quantos semestres o aluno cursou até a saída do curso \newline
+	public static void AtualizaSemestreCurso() throws ClassNotFoundException, SQLException \{
+	\begin{quote}
+		String sql1 = null; \newline
+		int valor = 0; \newline
+		String sql = "select MatricAluno, anoIngresso, SemestreIngresso, AnoSaida, SemestreSaida from alunos"; \newline
+		conexao = ObtemConexao(); \newline
+		stm = conexao.createStatement(); \newline
+		java.sql.ResultSet Rs = stm.executeQuery(sql); \newline
+		while (Rs.next()) \{
+			\begin{quote}
+				int matricula = Rs.getInt(1); \newline
+				int anoIngresso = Rs.getInt(2); \newline
+				int semestreIngresso =  Rs.getInt(3); \newline
+				int anoSaida = Rs.getInt(4); \newline
+				int semestreSaida = Rs.getInt(5); \newline
+				if (anoSaida == 9999)\{
+				\begin{quote}
+					sql1 = "update alunos set semestreSaidaCurso = 100 where matricAluno = " + matricula;
+				\end{quote}
+				\} else \{
+				\begin{quote}
+					if (semestreSaida == 9) \{
+					\begin{quote}
+						sql1 = "update alunos set semestreSaidaCurso = 99 where matricAluno = " + matricula;
+					\end{quote}
+					\} else \{
+					\begin{quote}
+						if (semestreIngresso == 1) \{
+						\begin{quote}
+							valor = ((anoSaida - anoIngresso)*2);
+						\end{quote}
+						\} 
+					\end{quote}
+					\begin{quote}
+						if (semestreIngresso == 2) \{
+						\begin{quote}
+							valor = ((anoSaida - anoIngresso)*2) - 1;
+						\end{quote}
+						\}
+					\end{quote}
+					\begin{quote}
+						if ((semestreSaida == 1 )||(semestreSaida == 0))\{
+						\begin{quote}
+						valor = valor +1;
+						\end{quote}
+						\} 
+					\end{quote}
+					\begin{quote}
+						if (semestreSaida == 2) \{
+						\begin{quote}
+							valor = valor +2;
+						\end{quote}
+						\} \newline
+						sql1 = "update alunos set semestreSaidaCurso =" + valor + "where matricAluno = " + matricula;
+					\end{quote}
+					\}
+				\end{quote}
+				\} \newline
+				System.out.println(sql1); \newline
+				pst = conexao.prepareStatement(sql1); \newline
+				pst.execute(); 
+			\end{quote}
+			\}
+			
+	\end{quote}
+	\}	\newline
+	\newline 
+	// Método Principal \newline
+	public static void main (String[] args) throws ClassNotFoundException, SQLException \{
+	\begin{quote}
+		AtualizaSemestreCurso();
+	\end{quote}	
+	\}		
+\end{quote}
+		\}
+	

@@ -1,0 +1,71 @@
+\select@language {american}
+\select@language {brazil}
+\select@language {american}
+\select@language {brazil}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Quantidade de matr\IeC {\'\i }culas registradas pelo Censo da Educa\IeC {\c c}\IeC {\~a}o Superior entre o ano de 2003 e 2013.}}{6}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Distribui\IeC {\c c}\IeC {\~a}o de Matr\IeC {\'\i }culas por tipo de Institui\IeC {\c c}\IeC {\~a}o de Ensino Superior. As universidades eram respons\IeC {\'a}veis pelo maior percentual de matr\IeC {\'\i }culas efetivas em 2013.}}{7}{figure.2.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces \IeC {\'A}reas mais beneficiadas pelo uso das Tecnologias da Informa\IeC {\c c}\IeC {\~a}o~\citep {sistemas_informacao1}.}}{29}{figure.3.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Fases do Processo de Extra\IeC {\c c}\IeC {\~a}o de Conhecimento (KDD)~\cite {fayyad1996}.}}{33}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Componentes necess\IeC {\'a}rios em um sistema de \textit {data mining}~\citep {han_kamber2006}.}}{34}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Fase de treinamento, onde os dados s\IeC {\~a}o analisados por um classificador~\citep {han_kamber2006}.}}{36}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Fase de teste, onde os dados de teste s\IeC {\~a}o aplicados para estimar a precis\IeC {\~a}o (acur\IeC {\'a}cia) do classificador~\citep {han_kamber2006}.}}{37}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Exemplo de \IeC {\'a}rvore de decis\IeC {\~a}o.}}{38}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Exemplo de modelo baseado regras de decis\IeC {\~a}o.}}{39}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Etapas do processo de metaclassifica\IeC {\c c}\IeC {\~a}o apresentado por \citet {bezerra2015}.}}{40}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Exemplos de agrupamentos de dados \textit {(clusters)}}}{42}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Detec\IeC {\c c}\IeC {\~a}o de anomalia (exce\IeC {\c c}\IeC {\~a}o) no conjunto de dados.}}{44}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Interface inicial do Weka.}}{46}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Captura de tela da interface \textit {Explorer} do Weka.}}{47}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Captura de tela da interface \textit {KnowledgeFlow} do Weka.}}{47}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Captura de tela da interface \textit {Experimenter} do Weka.}}{48}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Captura de tela da interface \textit {Simple CLI} do Weka.}}{48}{figure.4.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Interface do HeidiSQL.}}{51}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Tela de configura\IeC {\c c}\IeC {\~a}o de conex\IeC {\~a}o no HeidiSQL.}}{51}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Fluxo de An\IeC {\'a}lise das Disciplinas pela aplica\IeC {\c c}\IeC {\~a}o Java. A partir da disciplina pr\IeC {\'e}-requisito do primeiro semestre de cada departamento, foi verificado o hist\IeC {\'o}rico do aluno para as disciplinas subsequentes.}}{57}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Adicionando o \textit {driver} JBDC ao Projeto no Eclipse.}}{57}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Acesso ao arquivo \textit {weka.jar} para configurar a integra\IeC {\c c}\IeC {\~a}o entre o Weka e o MySQL.}}{60}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Diret\IeC {\'o}rio de acesso ao arquivo \textit {DataBaseUtilsmysql.props} }}{61}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Declara\IeC {\c c}\IeC {\~a}o do \textit {driver} utilizado do MySQL e da URL de acesso ao banco de dados no arquivo \textit {DataBaseUtilsmysql.props.}}}{61}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Declara\IeC {\c c}\IeC {\~a}o do \textit {driver} utilizado do MySQL e da URL de acesso ao banco de dados no arquivo \textit {DataBaseUtilsmysql.props.}}}{62}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Iniciando o Weka e o MySQL via \textit {Prompt de Comando} do \textit {Windows}.}}{62}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Permiss\IeC {\~o}es de acesso ao banco de dados no Weka}}{63}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Dados recuperados do SQL mostrados no Weka.}}{63}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Tela de acesso aos algoritmos no Weka}}{66}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Op\IeC {\c c}\IeC {\~o}es de algoritmos dispon\IeC {\'\i }veis no Weka}}{67}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Algoritmos selecionados para a an\IeC {\'a}lise dos dados de alunos ingressos no segundo semestre de 2005}}{68}{figure.5.14}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Situa\IeC {\c c}\IeC {\~a}o dos alunos ingressantes entre 2000 e 2013 no ano de 2014.}}{70}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Gr\IeC {\'a}fico de Ingressantes por Semestre no curso de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o da Universidade de Bras\IeC {\'\i }lia entre o ano de 2000 e 2013.}}{70}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Situa\IeC {\c c}\IeC {\~a}o dos alunos ingressantes por semestre no curso de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o da Universidade de Bras\IeC {\'\i }lia no ano de 2014.}}{71}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Formas de ingresso para os alunos identificados como formados, desligados e cursando em 2014.}}{71}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Quantidade de alunas ingressantes por semestre entre o ano de 2000 e 2013 e quantidade de alunas que foram identificadas como formadas no curso de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o da Universidade de Bras\IeC {\'\i }lia no ano de 2014.}}{73}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Quantidade de alunos do sexo masculino ingressantes por semestre entre o ano de 2000 e 2013 e quantidade de alunos que foram identificados como formados no curso de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o da Universidade de Bras\IeC {\'\i }lia no ano de 2014.}}{74}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Vis\IeC {\~a}o da taxa de desligamento geral por semestre no ano de 2014.}}{74}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Taxa de alunos formados por semestre entre o ano de 2000 e 2013 separados por g\IeC {\^e}nero.}}{75}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Taxa de alunos desligados por semestre entre o ano de 2000 e 2013 separados por g\IeC {\^e}nero.}}{75}{figure.6.9}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Formas de desligamento identificadas para os alunos em geral ingressos entre 2000 e 2013.}}{76}{figure.6.10}
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Taxa de reprova\IeC {\c c}\IeC {\~a}o geral entre 2000 e 2013 para as disciplinas obrigat\IeC {\'o}rias ofertadas nos tr\IeC {\^e}s primeiros semestres.}}{79}{figure.6.11}
+\contentsline {figure}{\numberline {6.12}{\ignorespaces Taxa de reprova\IeC {\c c}\IeC {\~a}o entre 2000 e 2013 dos alunos desligados para as disciplinas obrigat\IeC {\'o}rias ofertadas nos tr\IeC {\^e}s primeiros semestres.}}{79}{figure.6.12}
+\contentsline {figure}{\numberline {6.13}{\ignorespaces Percentual de alunos que reprovaram tr\IeC {\^e}s vezes a mesma disciplina obrigat\IeC {\'o}ria.}}{80}{figure.6.13}
+\contentsline {figure}{\numberline {6.14}{\ignorespaces Altera\IeC {\c c}\IeC {\~a}o de classificador no algoritmo de meta-aprendizagem \textit {END}.}}{86}{figure.6.14}
+\contentsline {figure}{\numberline {6.15}{\ignorespaces \textit {Cluster} gerado pelo algoritmo \textit {SimpleKmeans}, a partir dos atributos \textit {AluSexo} e \textit {AluSituacao}.}}{88}{figure.6.15}
+\contentsline {figure}{\numberline {6.16}{\ignorespaces \textit {Cluster} gerado pelo algoritmo \textit {FatherstFisrt}, a partir dos atributos \textit {AluSexo} e \textit {AluSituacao}.}}{88}{figure.6.16}
+\contentsline {figure}{\numberline {6.17}{\ignorespaces Regra gerada pelo algoritmo de \IeC {\'a}rvore \textit {LADTree}. Os valores positivos indicam se o aluno est\IeC {\'a} formado ou desligado, conforme condi\IeC {\c c}\IeC {\~a}o.}}{90}{figure.6.17}
+\contentsline {figure}{\numberline {6.18}{\ignorespaces Uma das regras geradas pelo algoritmo de regras \textit {Bagging} para os dados do primeiro semestre de 2004.}}{91}{figure.6.18}
+\contentsline {figure}{\numberline {6.19}{\ignorespaces Regra gerada pelo algoritmo de \IeC {\'a}rvore de decis\IeC {\~a}o \textit {ADTree} para os dados do segundo semestre de 2005.}}{93}{figure.6.19}
+\contentsline {figure}{\numberline {6.20}{\ignorespaces Regra gerada pelo algoritmo de \IeC {\'a}rvore \textit {LADTree} para os dados do primeiro semestre de 2006.}}{94}{figure.6.20}
+\contentsline {figure}{\numberline {6.21}{\ignorespaces Regra gerada pelo algoritmo de meta-aprendizagem \textit {FilteredClassifier} para os dados do segundo semestre de 2006.}}{96}{figure.6.21}
+\contentsline {figure}{\numberline {6.22}{\ignorespaces Regra gerada pelo algoritmo de regras \textit {JRip} para os dados do segundo semestre de 2009.}}{97}{figure.6.22}
+\contentsline {figure}{\numberline {6.23}{\ignorespaces Regra gerada pelo algoritmo de regras \textit {JRip} para os dados do segundo semestre de 2011.}}{98}{figure.6.23}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

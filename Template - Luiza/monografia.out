@@ -1,0 +1,63 @@
+\BOOKMARK [0][-]{dedication.0}{Dedicat\363ria}{}% 1
+\BOOKMARK [0][-]{acknowledgements.0}{Agradecimentos}{}% 2
+\BOOKMARK [0][-]{resumo.0}{Resumo}{}% 3
+\BOOKMARK [0][-]{abstract.0}{Abstract}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Introdu\347\343o}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Evas\343o no Ensino}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.2}{Justificativa}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.3}{Problema}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.4}{Objetivos}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.5}{Hip\363tese}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.6}{Descri\347\343o dos Cap\355tulos}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{A Evas\343o nas Institui\347\365es de Ensino Superior}{}% 12
+\BOOKMARK [1][-]{section.2.1}{O Cen\341rio da Educa\347\343o Superior no Brasil}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{O Conceito de Evas\343o e sua Implica\347\343o na Gest\343o das Institui\347\365es de Ensino Superior}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.3}{Motivos para Evas\343o}{chapter.2}% 15
+\BOOKMARK [2][-]{subsection.2.3.1}{Situa\347\365es de Evas\343o na Universidade de Bras\355lia}{section.2.3}% 16
+\BOOKMARK [1][-]{section.2.4}{Estudos sobre Evas\343o nos Cursos de Computa\347\343o no Brasil}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.5}{Estudos Sobre Evas\343o nos Cursos de Computa\347\343o na Universidade de Bras\355lia}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.5.1}{O Departamento de Ci\352ncia da Computa\347\343o da Universidade de Bras\355lia}{section.2.5}% 19
+\BOOKMARK [2][-]{subsection.2.5.2}{O Curso de Ci\352ncia da Computa\347\343o}{section.2.5}% 20
+\BOOKMARK [2][-]{subsection.2.5.3}{An\341lise de G\352nero nos Cursos de Computa\347\343o - Dantas e Couto \(2014\)}{section.2.5}% 21
+\BOOKMARK [2][-]{subsection.2.5.4}{Evas\343o no Bacharelado de Ci\352ncia da Computa\347\343o - Palmeira e Santos \(2014\)}{section.2.5}% 22
+\BOOKMARK [1][-]{section.2.6}{Discuss\343o dos Resultados}{chapter.2}% 23
+\BOOKMARK [0][-]{chapter.3}{O Papel da Informa\347\343o para a Organiza\347\343o}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Dado, Informa\347\343o e Conhecimento}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{Sistemas de Informa\347\343o na An\341lise de Informa\347\365es}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{Caracter\355sticas e Desafios da Informa\347\343o}{chapter.3}% 27
+\BOOKMARK [0][-]{chapter.4}{Minera\347\343o de Dados}{}% 28
+\BOOKMARK [1][-]{section.4.1}{Conceitos e Etapas do Processo de Extra\347\343o do Conhecimento}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.2}{Componentes de um Sistema de Minera\347\343o de Dados}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.3}{T\351cnicas de Minera\347\343o de Dados}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.3.1}{Classifica\347\343o}{section.4.3}% 32
+\BOOKMARK [2][-]{subsection.4.3.2}{Predi\347\343o}{section.4.3}% 33
+\BOOKMARK [2][-]{subsection.4.3.3}{Clusteriza\347\343o}{section.4.3}% 34
+\BOOKMARK [2][-]{subsection.4.3.4}{Detec\347\343o de Anomalias}{section.4.3}% 35
+\BOOKMARK [1][-]{section.4.4}{Softwares para Minera\347\343o de Dados}{chapter.4}% 36
+\BOOKMARK [1][-]{section.4.5}{Software Weka}{chapter.4}% 37
+\BOOKMARK [0][-]{chapter.5}{Minera\347\343o de Dados dos Alunos de Ci\352ncia da Computa\347\343o da UnB}{}% 38
+\BOOKMARK [1][-]{section.5.1}{Delimita\347\343o do Objeto de Pesquisa}{chapter.5}% 39
+\BOOKMARK [1][-]{section.5.2}{Sele\347\343o dos Dados}{chapter.5}% 40
+\BOOKMARK [1][-]{section.5.3}{Pr\351-processamento dos Dados}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.4}{Transforma\347\343o dos Dados}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.4.1}{Organiza\347\343o dos Dados por Departamento e Disciplinas}{section.5.4}% 43
+\BOOKMARK [2][-]{subsection.5.4.2}{Gera\347\343o dos Arquivos em Formato ARFF}{section.5.4}% 44
+\BOOKMARK [1][-]{section.5.5}{Minera\347\343o de Dados}{chapter.5}% 45
+\BOOKMARK [0][-]{chapter.6}{Resultados}{}% 46
+\BOOKMARK [1][-]{section.6.1}{Resultados Obtidos por Consultas SQL ao Banco de Dados}{chapter.6}% 47
+\BOOKMARK [2][-]{subsection.6.1.1}{Vis\343o Geral}{section.6.1}% 48
+\BOOKMARK [2][-]{subsection.6.1.2}{An\341lise dos Alunos por G\352nero}{section.6.1}% 49
+\BOOKMARK [2][-]{subsection.6.1.3}{An\341lise das Disciplinas}{section.6.1}% 50
+\BOOKMARK [1][-]{section.6.2}{Resultados Obtidos por Minera\347\343o de Dados}{chapter.6}% 51
+\BOOKMARK [2][-]{subsection.6.2.1}{Evas\343o Geral dos Alunos Entre 2000 e 2013}{section.6.2}% 52
+\BOOKMARK [2][-]{subsection.6.2.2}{Evas\343o dos Alunos nos Semestres com Maiores Taxas de Desligamento}{section.6.2}% 53
+\BOOKMARK [0][-]{chapter.7}{Conclus\343o}{}% 54
+\BOOKMARK [1][-]{section.7.1}{Contribui\347\365es}{chapter.7}% 55
+\BOOKMARK [1][-]{section.7.2}{Trabalhos Futuros}{chapter.7}% 56
+\BOOKMARK [0][-]{section*.23}{Refer\352ncias}{}% 57
+\BOOKMARK [0][-]{annex.I}{Programa e Pr\351-Requisitos nas Disciplinas Analisadas}{}% 58
+\BOOKMARK [0][-]{appendix.A}{C\363digo Java para c\341lculo da quantidade de semestres cursados pelos alunos}{}% 59
+\BOOKMARK [0][-]{appendix.B}{C\363digo Java para gera\347\343o das tabelas evasao\137cic, evasao\137mat e evasao\137fis}{}% 60
+\BOOKMARK [0][-]{appendix.C}{Query utilizada para gera\347\343o dos arquivos em formato ARFF}{}% 61
+\BOOKMARK [0][-]{appendix.D}{Queries Gerais Utilizadas nas Consultas SQL}{}% 62
+\BOOKMARK [0][-]{appendix.E}{Queries Utilizadas na Transforma\347\343o dos Dados}{}% 63

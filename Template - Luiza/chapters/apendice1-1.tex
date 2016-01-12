@@ -1,0 +1,244 @@
+
+\chapter{Código Java para geração das tabelas \textit{evasao\_cic, evasao\_mat} e \textit{evasao\_fis}} \label{apendiceB}
+
+
+A mesma estrutura de código foi utilizada para a geração das tabelas \textit{evasao\_cic, evasao\_mat} e \textit{evasao\_fis}, onde apenas o nome da tabela e os códigos das disciplinas foram alterados, seguindo a ordem apresentada na Tabela \ref{tabela-apendice}. 
+
+\begin{table}[!h]
+	\centering
+	\label{tabela-apendice}
+	\caption{Tabelas SQL e Códigos das Disciplinas por Departamento.}
+	\begin{tabular}{C{3cm}|C{2cm}C{6cm}}
+		\hline
+		Tabela SQL & Código & Disciplina\\ \hline
+		\multirow{3}{*}{\textit{evasao\_cic}} & 116301 & Computação Básica\\
+		& 116319 & Estruturas de Dados\\
+		& 113956 & Programação Sistemática\\ \hline
+		\multirow{3}{*}{\textit{evasao\_mat}} & 113034 & Cálculo 1\\
+		& 113042 & Cálculo 2\\
+		& 113051 & Cálculo 3\\ \hline
+		\multirow{3}{*}{\textit{evasao\_fis}} & 118001 & Física 1\\
+		& 118028 & Física 2\\
+		& 118044 & Física 3\\ \hline
+	\end{tabular}
+\end{table}
+
+A seguir, é apresentado o exemplo utilizado para a geração da tabela \textit{evasao\_cic}. \newline
+\newline
+\newline
+package Dados; \newline
+import java.sql.Connection; \newline
+import java.sql.DriverManager; \newline
+import java.sql.SQLException; \newline
+\newline
+
+public class Constroi\_Dados\_CIC \{ 
+\begin{quote}
+	private static java.sql.Statement stm; \newline
+	private static java.sql.Statement stm2; \newline
+	private static java.sql.PreparedStatement ps; \newline
+	private static Connection conexao; \newline
+	\newline
+	//	Função: Estabelece conexão com o banco de dados. \newline
+	public static Connection ObtemConexao() throws SQLException, ClassNotFoundException\{
+		\begin{quote}
+		Connection conn = null; \newline
+		Class.forName("com.mysql.jdbc.Driver"); \newline
+		conn = DriverManager.getConnection(''jdbc:mysql://localhost:3306/alunos\_cic'', ''root'', '' ''); \newline
+		return conn;
+		\end{quote}
+	\}  
+	
+	\textit{// Função: Insere matricula e quantidade de vezes que um aluno cursou a disciplina de Computação Básica.} \newline
+	public static void AtualizaCB() throws ClassNotFoundException, SQLException \{	
+	\begin{quote}
+		String sql = "select distinct MatricAluno, count(CodDisc) from historico where codDisc = 116301 " \newline
+		+ "group by MatricAluno order by MatricAluno asc"; \newline
+		conexao = ObtemConexao(); \newline
+		stm = conexao.createStatement(); \newline
+		java.sql.ResultSet Rs = stm.executeQuery(sql); \newline
+		while (Rs.next())\{
+		\begin{quote}
+			int matricula = Rs.getInt(1); \newline
+			int quantidade =  Rs.getInt(2); \newline
+			String sqlAtualiza = "insert into evasao\_cic (matricula, QtdeCB) values ("+matricula+","+quantidade+") "; \newline
+			ps = conexao.prepareStatement(sqlAtualiza); \newline
+			ps.execute(); 
+			\end{quote}
+		\} \newline
+		Rs.close(); \newline
+		AtualizaED(); \textit{//Atualiza a quantidade de vezes que a disciplina Estruturas de Dados foi cursada.}\newline
+		AtualizaPS(); \textit{//Atualiza a quantidade de vezes que a disciplina Programação Sistemática foi cursada.}\newline
+		AtualizaMencoesCIC(); \textit{//Atualiza as menções e turmas de Computação Básica, Estruturas de Dados e Programação Sistemática.}
+		\end{quote}
+	\} \newline
+	
+	\textit{// Função: Atualiza a quantidade de vezes que a disciplina Estruturas de Dados foi cursada por um aluno.} \newline
+	public static void AtualizaED() throws SQLException, ClassNotFoundException \{
+	\begin{quote}
+		String sql = "select distinct MatricAluno, count(CodDisc) from historico where codDisc = 116319" \newline
+		+ "group by MatricAluno"; \newline
+		java.sql.ResultSet Rs = stm.executeQuery(sql); \newline
+		while (Rs.next()) \{
+		\begin{quote}
+			int matricula = Rs.getInt(1); \newline
+			int quantidade =  Rs.getInt(2); \newline
+			String sqlAtualiza = "update evasao\_cic set QtdeED =" + quantidade + " where matricula =" + matricula; \newline
+			ps = conexao.prepareStatement(sqlAtualiza); \newline
+			ps.execute();
+		\end{quote}
+		\} \newline
+		Rs.close();
+	\end{quote}
+	\}\newline
+	\newline
+	\textit{// Função: Atualiza a quantidade de vezes que a disciplina Programação Sistemática foi cursada por um aluno.} \newline
+	public static void AtualizaPS() throws SQLException, ClassNotFoundException \{
+	\begin{quote}
+		String sql = "select distinct MatricAluno, count(CodDisc) from historico where codDisc = 113956" \newline
+		+ "group by MatricAluno"; \newline
+		java.sql.ResultSet Rs = stm.executeQuery(sql); \newline
+		while (Rs.next()) \{
+		\begin{quote}
+			int matricula = Rs.getInt(1); \newline
+			int quantidade =  Rs.getInt(2); \newline
+			String sqlAtualiza = "update evasao\_cic set QtdePS =" + quantidade + " where matricula =" + matricula; \newline
+			ps = conexao.prepareStatement(sqlAtualiza); \newline
+			ps.execute();
+		\end{quote}
+		\} \newline
+		Rs.close();
+	\end{quote}
+	\}\newline
+	\newline
+	\textit{//	Atualiza as primeiras e últimas notas e turmas das disciplinas Computação Básica, Estruturas de Dados e Programação Sistemática para cada aluno}. \newline
+	public static void AtualizaMencoesCIC() throws SQLException, ClassNotFoundException\{
+	\begin{quote}
+		conexao = ObtemConexao(); \newline
+		stm2 = conexao.createStatement(); \newline
+		String mencaoCB1; \newline
+		String turmaCB1; \newline
+		String mencaoED1; \newline
+		String turmaED1; \newline
+		String mencaoCB2; \newline
+		String turmaCB2; \newline
+		String mencaoED2; \newline
+		String turmaED2; \newline
+		String mencaoPS1; \newline
+		String turmaPS1; \newline
+		String mencaoPS2; \newline
+		String turmaPS2; \newline
+		String sql = "select Matricula from evasao\_cic"; \newline
+		java.sql.ResultSet Rs5 = stm2.executeQuery(sql); \newline
+		while (Rs5.next() == true)\{
+		\begin{quote}
+			int matricula = Rs5.getInt(1); \newline
+			String sqlAtualizaCB1 = "select mencao, concat(ano,'\_',semestre,'\_',turma) from historico where codDisc=116301 and matricAluno =" + matricula + 
+			" order by ano asc, semestre asc limit 1"; \newline
+			java.sql.ResultSet Rs1 = stm.executeQuery(sqlAtualizaCB1); \newline
+			if (Rs1.next())\{
+			\begin{quote}
+				mencaoCB1 = Rs1.getString(1); \newline
+				turmaCB1 = Rs1.getString(2); 
+			\end{quote}
+			\} \newline
+			else\{
+			\begin{quote}
+				mencaoCB1 = null; \newline
+				turmaCB1 = null; \newline
+				\} 
+			\end{quote}
+			String sqlAtualizaCB2 = "select mencao, concat(ano,'\_',semestre,'\_',turma) from historico where codDisc = 116301 and matricAluno ="
+			 + matricula + " order by ano desc, semestre desc limit 1"; \newline
+			
+			java.sql.ResultSet Rs3 = stm.executeQuery(sqlAtualizaCB2); \newline
+				if (Rs3.next())\{
+				\begin{quote}
+					mencaoCB2 = Rs3.getString(1); \newline
+					turmaCB2 = Rs3.getString(2); 
+				\end{quote}
+				\} else \{
+				\begin{quote}
+				mencaoCB2 = null; \newline
+				turmaCB2 = null; \newline
+					\} 
+				\end{quote}
+			String sqlAtualizaED1 = "select mencao, concat(ano,'\_',semestre,'\_',turma) from historico where codDisc=116319 and matricAluno =" + matricula +
+			" order by ano asc, semestre asc limit 1"; \newline
+			java.sql.ResultSet Rs2= stm.executeQuery(sqlAtualizaED1); \newline
+			if (Rs2.next())\{
+			\begin{quote}
+				mencaoED1 = Rs2.getString(1); \newline
+				turmaED1 = Rs2.getString(2); 
+			\end{quote}
+			\}
+			else\{ 
+			\begin{quote}
+				mencaoED1 = null; \newline
+				turmaED1 = null; \newline
+				\} 
+			\end{quote}
+			String sqlAtualizaED2 = "select mencao, concat(ano,'\_',semestre,'\_',turma) from historico where codDisc = 116319 and matricAluno ="
+			 + matricula + " order by ano desc, semestre desc limit 1"; \newline
+			java.sql.ResultSet Rs4 = stm.executeQuery(sqlAtualizaED2); \newline
+			if (Rs4.next())\{ 
+			\begin{quote}
+				mencaoED2 = Rs4.getString(1); \newline
+				turmaED2 = Rs4.getString(2); 
+			\end{quote}
+			\} else \{
+			\begin{quote}
+			mencaoED2 = null; \newline
+			turmaED2 =null; \newline
+			\} 
+			\end{quote}
+		String sqlAtualizaPS1 = "select mencao, concat(ano,'\_',semestre,'\_',turma) from historico where codDisc = 116319 and matricAluno =" + matricula + 
+		" order by ano asc, semestre asc limit 1"; \newline
+		java.sql.ResultSet Rs7= stm.executeQuery(sqlAtualizaPS1); \newline
+		if (Rs7.next())\{
+		\begin{quote}
+			mencaoPS1 = Rs7.getString(1);\newline
+			turmaPS1 = Rs7.getString(2);
+		\end{quote}
+		\} else\{
+		\begin{quote}
+			mencaoPS1 = null; \newline
+			turmaPS1 = null; \newline
+			\}
+			\end{quote}
+		
+		String sqlAtualizaPS2 = "select mencao, concat(ano,'\_',semestre,'\_',turma) from historico where codDisc = 116319 and matricAluno ="
+		 + matricula + " order by ano desc, semestre desc limit 1"; \newline
+		java.sql.ResultSet Rs6 = stm.executeQuery(sqlAtualizaED2); \newline
+		if (Rs6.next())\{
+		\begin{quote}
+			mencaoPS2 = Rs6.getString(1); \newline
+			turmaPS2 = Rs6.getString(2);
+		\end{quote}
+		\} else \{
+		\begin{quote}
+		mencaoPS2 = null; \newline
+		turmaPS2 =null; \newline
+		\}
+		\end{quote}
+	String sqlAtualiza = "update evasao\_cic set PrimeiraNotaCB = '" + mencaoCB1 + "' , PrimeiraNotaED = '" + mencaoED1 + 
+	"', PrimeiraNotaPS='" + mencaoPS1 +"', UltimaNotaCB ='" + mencaoCB2 + "', UltimaNotaED = '" + mencaoED2 + "', UltimaNotaPS = '" + mencaoPS2 + "',PrimeiraTurmaCB='" + turmaCB1 + 
+	"', UltimaTurmaCB ='" + turmaCB2 + "', PrimeiraTurmaED='" + turmaED1 + "', UltimaTurmaED ='" + turmaED2 + "', PrimeiraTurmaPS ='" + 
+	turmaPS1 + "', UltimaTurmaPS ='" + turmaPS2 +
+	"' where matricula = "+matricula; \newline
+	ps = conexao.prepareStatement(sqlAtualiza); \newline
+	ps.execute(); 
+	\end{quote}
+	\} \newline
+	Rs5.close();
+\end{quote}
+	\} \newline
+	\newline
+\textit{// Função Principal} \newline
+ public static void main (String[] args) throws ClassNotFoundException, SQLException\{ 
+ \begin{quote}
+ 	AtualizaCB(); 
+ 	\end{quote}
+ \}
+\end{quote}
+\}

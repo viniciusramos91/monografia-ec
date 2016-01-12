@@ -1,0 +1,39 @@
+
+
+\chapter{Conclusão} \label{chapter7}
+
+Neste trabalho, foram identificadas variáveis, regras e padrões capazes de auxiliar na detecção das causas de evasão dos alunos do Bacharelado em Ciência da Computação. Foram realizadas análises estatísticas e mineração de dados a partir dos dados disponibilizados sobre os alunos ingressantes no curso entre 2000 e 2013.
+
+Foi verificado que, embora a taxa de ingresso tenha crescido ao longo dos anos, a quantidade de alunos que evadiram do curso é bastante superior à quantidade de alunos formados. O percentual de alunas formadas é superior ao de alunos formados, embora o ingresso de alunos seja muito predominante. A partir de 2008, é verificado um decréscimo na taxa de formados por semestre de ingresso, visto que a maioria dos alunos levam mais de 10 semestres para concluir o curso. Para os alunos (do sexo masculino), não foi identificado um período com maior índice de evasão, enquanto que para as alunas a evasão é maior entre o primeiro e o terceiro semestres do curso.
+
+Foi verificado que o vestibular e o PAS constituem as principais formas de ingresso no curso. Os percentuais de ingresso e desligamento do vestibular são maiores se comparados aos do PAS. Não constatou-se, entre 2000 e 2013, alunos formados que ingressaram por matrícula cortesia, convênio internacional e transferência facultativa. Como a Universidade de Brasília adotou o ENEM como forma de ingresso a partir de 2012, ainda não foram constatados alunos formados. 
+
+Entre as formas de desligamento, as principais apontadas foram desligamento por não cumprimento de condição, desligamento por abandono e desligamento voluntário. Foi verificado que os alunos  desligados em geral cursaram, em média, de cinco a seis semestres. Ainda, foi possível verificar para as alunas, uma maior taxa de desligamento entre o primeiro e o terceiro semestres, o que indica que as alunas tendem a ter evasão do curso principalmente nos dois primeiros anos de graduação.
+
+Comparando a média de desempenho dos alunos em geral e dos alunos desligados, verificou-se que os últimos apresentaram maiores taxas de reprovação, se comparados à media geral. Constatou-se que os alunos apresentam maior dificuldade nas disciplinas ofertadas pelo Departamento de Matemática e o Instituto de Física, especialmente em Cálculo 1, Física 1, Cálculo 3 e Física 3, considerando que essas disciplinas apresentaram altas taxas de reprovação. Das disciplinas analisadas ofertadas pelo Departamento de Ciência da Computação, Computação Básica e Programação Sistemática são as disciplinas com maiores taxas de reprovação, porém os percentuais de reprovação são relativamente menores se comparados às disciplinas de Cálculo e Física.
+ 
+Ao realizar a mineração de dados no Weka, os algoritmos de classificação apresentaram variação no desempenho para cada arquivo de dados analisado, sendo necessária a utilização de diferentes algoritmos para identificar padrões e similaridades entre as regras geradas. Durante a mineração de dados, houve algoritmos que, embora apresentassem uma alta taxa de acerto, não forneciam regras ou informações relevantes para justificar as causas de evasão.
+
+Analisando os dados gerais, os algoritmos apontaram na maioria dos casos que a reprovação ou um baixo desempenho nas disciplinas de Cálculo 1, Física 1, Cálculo 3 e Física 3 estavam relacionados ao desligamento. Porém foram identificadas algumas exceções, como a condição do aluno ser aprovado em Cálculo 2 com menção SS e Física 2 com menção MS ser considerado desligado pelo algoritmo de regra \textit{PART}. Para a regra, foram verificadas seis instâncias na base de dados geral e três instâncias abrangidas pela regra no conjunto de teste no Weka. Ao verificar a base de dados, os alunos desligados que obtiveram menção SS em Cálculo 2 e MS em Física 2 evadiram principalmente por não cumprimento de condição e desligamento voluntário.
+
+ Outra exceção gerada pelo algoritmo \textit{DecisionTable} é dada a aprovação em Cálculo 3 com menção SS e Física 3 com menção MM o aluno ser classificado como desligado, porém ao verificar a base de dados não foi constatada nenhuma instância abrangida pela regra. Também foi verificado que todos os algoritmos aplicados sobre o conjunto de dados gerais apontaram uma tendência dos alunos a saírem do curso antes da conclusão, visto que todos os algoritmos aplicados sobre o conjunto de dados gerais classificaram mais alunos que estavam cursando em 2014 como prováveis desligados do que formados.
+
+Analisando os dados por semestre de ingresso, foi verificado que os atributos relacionados às turmas e menções foram fortemente utilizados para a geração de regras de classificação pelos algoritmos. Pelos algoritmos de classificação, verificou-se que as turmas nas quais as disciplinas foram cursadas também foram determinantes para classificar determinado aluno como cursando, formado ou desligado, principalmente em Cálculo 2, o que sugere a necessidade de um estudo aprofundado a respeito da relação entre as turmas e a continuidade do curso.  Das regras geradas, observou-se que as causas de evasão são variadas para cada semestre analisado, porém o baixo rendimento nas disciplinas de Cálculo 1, Cálculo 3, Física 1, Física 3, Estruturas de Dados e Programação Sistemática apresentaram-se como as causas de evasão mais recorrentes. 
+
+\section{Contribuições} 
+
+Os processos de mineração de dados e de análise estatística realizados neste trabalho permitiram validar a hipótese apresentada na Seção \ref{1title3}, que era identificar informações relevantes para relacionar padrões descobertos nos dados com o processo de desligamento dos alunos no Bacharelado em Ciência da Computação da Universidade de Brasília.
+
+Em resumo, dos resultados obtidos nesse trabalho, sugerimos que o baixo rendimento nas disciplinas de Cálculo 1, Cálculo 3, Física 1, Física 3 e Programação Sistemática podem ser utilizadas como parâmetros para identificar um aluno com risco de evasão.
+
+\section{Trabalhos Futuros}
+
+Como sugestões para trabalhos futuros, são propostos:
+
+\begin{itemize}
+
+	\item Comparar o desempenho dos alunos matriculados no Bacharelado, Licenciatura e Engenharia da Computação nas disciplinas iniciais ofertadas aos três cursos, tais como Cálculo 1 e 2, Computação Básica e Estruturas de Dados;
+	\item Comparar o desempenho dos alunos matriculados no Bacharelado em Ciência da Computação nas disciplinas finais de curso, tais como Organização e Arquitetura de Computadores, \textit{Software} Básico e Sistemas Operacionais;
+	\item Analisar novos atributos (por exemplo, dados informados na inscrição do vestibular ou PAS) para identificar novos padrões nos perfis de alunos com risco de evasão;
+	\item Repetir o experimento futuramente para avaliar se houve diminuição das taxas de evasão com a implantação do novo Projeto Político Pedagógico no Bacharelado em Ciência da Computação.
+\end{itemize}
